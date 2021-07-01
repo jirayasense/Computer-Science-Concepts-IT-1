@@ -1,0 +1,20 @@
+* activity = scaffold
+
+* views = widgets
+
+  fragment = widgets (reusable ui components)
+
+* App Drawer navigation :- defaults to popping everything off the backstack except for the start destination
+
+  Menu Navigation :- Adds to the backstack from current pos.
+
+  DrawerLayout    :- Provides the foundation for sliding layout behaviour of the navigation Drawer
+
+  NavigationView  :- Material Design Container that provides looks, feels, & functionality of the Navigation Drawer
+
+
+
+* Observer Patterns :
+  -----------
+   -> Observers watch the Subject
+      Event that cause state change - to -> Subject - to -> notifies Observer

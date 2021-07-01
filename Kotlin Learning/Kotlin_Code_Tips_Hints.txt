@@ -1,0 +1,43 @@
+// Hide the keyboard.
+val imm = getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager
+imm.hideSoftInputFromWindow(view.windowToken, 0)
+
+-----------
+ 
+//Enable Data Binding (build.gradle, app module)
+dataBinding{
+    enable = true 
+}
+//Also wrap your xml-file layout into <layout> tag. so root element is no more ViewGroup but layout tag
+
+//Data Binding Usage
+DataBindingUtils.setContentView()
+
+invalidateAll()  // = setState() in flutter
+
+
+//Constraints
+Ratio - constraintsDimensionRatio
+
+//android back button
+app:defaultNavHost
+
+
+//Menu Enable Screen
+setHasOptionsMenu(), 
+onCreateOptionsMenu()    
+onOptionsItemsSelected()
+
+//Share (Implicit) Intent  Compat
+ShareCompat.IntentBuilder.from().setText().setType() 
+
+//Check if activity is found or not 
+getShareIntent().r esolveActvitiy()
+
+//Application (global class)
+Application() 
+Also dont forget to add that inherited class to AndroidManifest
+
+
+//LifeCycleObserver Eg
+class CName(lifeCycle: LifeCycle) : LifeCycleObserver 

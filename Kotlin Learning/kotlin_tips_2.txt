@@ -1,0 +1,19 @@
+References :
+  https://medium.com/androiddevelopers/the-android-lifecycle-cheat-sheet-part-i-single-activities-e49fd3d202ab
+  https://medium.com/androiddevelopers/the-android-lifecycle-cheat-sheet-part-ii-multiple-activities-a411fd139f24
+  https://medium.com/androiddevelopers/the-android-lifecycle-cheat-sheet-part-iii-fragments-afc87d4f37fd
+
+
+-> Don't put all code in global Application(), i.e (World Readable World Writtable)
+
+
+
+
+
+
+
+
+
+//----------- Third Party Package For Android (Kotlin)
+
+- Timber -> for Logging Purpose`

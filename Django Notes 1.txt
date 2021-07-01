@@ -1,0 +1,6 @@
+- pip intsall django
+- python -m django --version
+- django-admin
+
+Tips :
+cd !$   //enter in current directory folder
