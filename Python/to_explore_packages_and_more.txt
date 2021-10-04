@@ -1,0 +1,56 @@
+
+
+builtins,
+os,
+argparse
+inspect,
+gc 
+pdb
+importlib
+sys      --- MIMP
+dis
+
+math 
+unittest
+shutil
+contextlib
+secrets
+
+glob
+logging 
+
+sqflite3
+
+joblib     // deal with pickle file 
+
+
+get topics from this course :-
+  https://www.udemy.com/course/python-programming-beginner-to-advanced/
+
+
+  monkey-patching in python
+
+
+
+* Imp Concepts in Python :
+  ---------
+   -> namespace 
+      iterator/generator 
+      sequence 
+      iterable 
+      collections 
+
+      closures 
+      Monkey Patching 
+      Controlled Monkey Patching (vis slots)
+      circular references 
+      
+
+
+---------------------------
+
+Explore this combination :
+   
+    - importlib + pathlib + os 
+    - 
+      

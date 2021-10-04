@@ -1,0 +1,34 @@
+* C#
+  ---
+   -> Boxing UnBoxing
+   -> ref out 
+   -> virtual 
+   -> LinQ/Lambda  (Kinda Sql Query)
+
+
+* Kotlin 
+  ------
+   -> Boxing UnBoxing  
+   -> range syntax
+   -> Sealed Classes vs Enum Classes (State machines & When)
+   -> Companion Object
+   -> Anonymous Objects  (via object)
+   -> reified parameter
+   -> Delegated Properties  (`by`)
+
+
+* Java 
+  ----
+   -> for Each Loop 
+   -> Heap & Stack Management Uniquely by JVM 
+   -> psvm
+
+
+* Python  
+  -----
+   -> Multiple assignment
+   -> tuple
+   -> dunder (magic) methods  &  facade methods
+   -> generator & context
+   -> namespace, loader, executor
+   -> garbage Collector & ref Counts

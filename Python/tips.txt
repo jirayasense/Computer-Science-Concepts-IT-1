@@ -1,0 +1,65 @@
+[String Interning] https://medium.com/@bdov_/https-medium-com-bdov-python-objects-part-iii-string-interning-625d3c7319de
+                   https://stackabuse.com/guide-to-string-interning-in-python/
+
+=> Significance of 0-based indexing in python : 
+      at any index we can get #elems on left side of that index
+
+-----------------------------
+
+1) Use any() or all() whenever its suited
+
+2) Guard Clause | Statement 
+    \
+     do short and siple decision at start of function to return things 
+
+3) Simplify sequence Checks 
+    \
+     empty sequence & collections leds to false
+
+4) use !r or %r as prefix to get repr() of an object in formatted string 
+
+5) Emphasis Comprehension (list, set, dict) when possible
+
+6) Positional only parameter :- use forward slash i.e `/`
+
+
+-------reference
+
+[Import Python Tips]  https://realpython.com/python-import/
+
+Articles :- analytics vidhya 
+
+            pencilprogrammer
+
+----------
+
+1) To get maxsize for Int or numeric use -> sys.maxsize
+
+2) To see some help for object in python cmd -> pydoc obj_name
+
+3) builtins module -> to get builtin obj identifiers
+
+4) To get filepath for module -> __file__ property on module 
+
+5) To time your function code you can use :- time.time()
+
+6) use `functools.partial` -> to partially used function and provide default value will using function as expression
+
+7) use dictionary comprehension with zip most of time to get elegant 1 liner
+
+8) To get comma seperated large number in string format -> use placeholder i.e 
+    => "{:,}".format(10_000)  // 10,000
+
+9) To get `HOME` env path -> os.environ.get("HOME") 
+
+10) List all keywords in python -> keyword.kwlist()
+
+11) to print doc of python file just use first Statement i.e `print(__doc__)`
+
+--------------
+
+Python builtin frequently used 
+
+isinstance(), type(), any(), all(), min(), max(), sum(), prod()
+
+zip(), enumerate(), reduce(), partial(), 

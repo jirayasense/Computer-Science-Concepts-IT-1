@@ -1,4 +1,4 @@
-package com.company.algos;
+package com.company.algos.search;
 
 public class Search {
 
@@ -13,19 +13,19 @@ public class Search {
         if (arr.length == 0) {
             throw new RuntimeException("array is empty");
         }
-
-        if (arr[0] == arr[arr.length - 1]) {
+        int last_index = arr.length - 1;
+        if (arr[0] == arr[last_index]) {
             return arr[0] == target ? 0 : -1;
         }
-        var isIncreasingOrder = arr[0] < arr[arr.length - 1];
+        var isIncreasingOrder = arr[0] < arr[last_index];
         if (isIncreasingOrder) {
             int start = 0, end = arr.length - 1;
             while (start <= end) {
                 int m = start + (end - start) / 2;
-                if (arr[m] > target) {
+                if (target > arr[m]) {
                     //Search in right part
                     start = m + 1;
-                } else if (arr[m] < target) {
+                } else if (target < arr[m]) {
                     //Search in left part
                     end = m - 1;
                 } else {
@@ -36,10 +36,10 @@ public class Search {
             int start = 0, end = arr.length - 1;
             while (start <= end) {
                 int m = start + (end - start) / 2;
-                if (arr[m] > target) {
+                if (target > arr[m]) {
                     //Search in left part
                     end = m - 1;
-                } else if (arr[m] < target) {
+                } else if (target < arr[m]) {
                     //Search in Right part
                     start = m + 1;
                 } else {

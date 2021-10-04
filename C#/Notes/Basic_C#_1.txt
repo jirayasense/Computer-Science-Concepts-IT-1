@@ -1,0 +1,11 @@
+* var args in c# -> `params`
+
+* the addition operation overflowed the allowed values of integers.
+
+* facts :
+  -----
+   -> To get MachineName :- System.Environment.MachineName
+
+   -> Max size of int   :- int.MaxValue
+
+   -> to get size of any datatype :- `sizeof()`

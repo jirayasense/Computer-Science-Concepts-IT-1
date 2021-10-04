@@ -1,5 +1,7 @@
 ref : https://developer.android.com/topic/libraries/view-binding
 
+      https://wajahatkarim.com/2020/04/evolution-of-finding-views/
+
 
 -> MainActivity is itself context
 
@@ -57,6 +59,15 @@ Chains - help to create view groups
    Navigation Interface :
   ----
    - provides 1 api, that listen when navigation changes
+
+   NavHostFragment : 
+
+
+   => To pass argument via navigation from in xml :-
+
+       <fragment> <argument> ... all details for argument ... </argument>   </fragment>
+   
+
 
 * Menu :
   ---
@@ -117,13 +128,53 @@ Chains - help to create view groups
     LifeCycle library classes can be used to notify something (with Observer Patterns) 
 
 
-    Observer Patterns :
+    Observer Patterns :   [Philosophy/Paradigms/Principle]
     ------
+
+    LifeCycleObserver :
+    -----------
+     -> It listen & react via a syntax of `Annotation` 
+     - Every Activity has property : lifeCycle
 
 * Application Class :
   -----
    - main class that contains global application state for your entire app.
 
+* Save State to Bundle (manually) :
+  -------
+   - Bundle : Collection of Key-Value pair.
+
+   - OnSaveInstanceState()   // callback that occur whenever android os try to stop/kill app in background
+      \
+       It's called after onStop().
+        - Safety measure when app is torn down by OS
+
+  - OnRestoreInstanceState() // callback 
+     \ 
+      It's called after onStart()
+
+  
+  * Parcel & Parcelable :
+    ----------
+     Parcelable is interface
+
+     using parcel in android for processes is similar as using xml/json for web-services.
+
+     App Bundle -> Is kinda Parcelable
+
+     Parcelable Interface :
+       scribeContents() : used by android to share active file descriptors by processes.
+
+       => IMP : order is importent, while parceling. [i.e Read/Write/to/from Parcels]
+
+       Q. How to Parcelize data class ??
+       -> @Parcelize,   [from kotlin-android-extension ]
+
+      @Parcelize :
+      -------
+       -> Turns a Kotlin data object with simple and Parcelable types into a Parcelable object.
+
+----
 TIPS ->
 ----
 
@@ -139,6 +190,8 @@ To add listener to navigation backstack
     addOnDestinationChangedListener(),
     DrawerLockMode
 
+->  Retrieve and use the data (from OnRestoreInstanceState) in onCreate if you're restarting to Activity
+
 
 Amazing Info 
 -----------
@@ -148,3 +201,20 @@ Amazing Info
 -> To interact with Fragment/Activity LifeCycle, We can have 2 ways
     1) Overriding methods (i.e create(), start(), stop(), pause(), etc...)
     2) AndroidLifeCycle object
+
+* Bundle & App-State Info (Implicit & Explicit Bundling) :-
+-> When androis OS stop/destroy any of app activity or app itself, it save some states of app into `Bundle`,
+   which can be later utilised when restarted.
+
+   It can trace - text, labels, even BackStack Information ...
+  
+   hint : most time it will try to bundle the information that has ID's associated with it
+
+   When return back to app - it try to reads from BUNDLE 
+   => Sometimes You need to manually add info to bundle (i.e manual saving state info)
+
+-> When app is switch between Potrait-Landscape mode, Configuration Change, i.e Activity Rebuilds 
+   LifeState - 
+     OnDestroy -> OnCreate -> onStart -> ...
+
+-> To kill any activity ;- finish()

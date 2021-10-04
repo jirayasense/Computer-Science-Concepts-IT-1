@@ -1,0 +1,21 @@
+* mixin 
+
+ https://medium.com/flutter-community/dart-what-are-mixins-3a72344011f3
+ https://www.educative.io/blog/dart-2-language-features
+ https://www.programmersought.com/article/75333446596/
+
+
+* Upcast
+  -----
+   -> Implicit Widening 
+
+      https://stackoverflow.com/questions/20859702/dart-typecasting-error/20859856
+
+
+* generics & Constructor :
+  -------------
+   -> Constructor can't have generics types 
+
+* Constructor Expressions :
+  --------------
+   factory constructor can be assigned using `=` during initialised i.e redirection

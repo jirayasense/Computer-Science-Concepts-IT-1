@@ -1,0 +1,1 @@
+1) prime -> https://www.geeksforgeeks.org/prime-numbers/

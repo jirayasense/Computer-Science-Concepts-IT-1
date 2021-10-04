@@ -1,0 +1,7 @@
+* Custom Button :
+  ----------
+   -> xml- resource file having :-
+      
+        <shape> 
+            ....
+        </shape>

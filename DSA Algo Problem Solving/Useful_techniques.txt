@@ -1,0 +1,9 @@
+TIP -> Always first think for bruteforce approach
+
+1) Binary Search
+
+2) Kadane's Algorithm  (For max SubArray Sum)
+
+
+=> When you need to find something potential ans in a range (i.e start & stop)
+    - binary search can be useful

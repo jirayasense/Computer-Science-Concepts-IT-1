@@ -1,0 +1,2 @@
+* (Transpose of a matrix * matrix itself)
+   -> https://math.stackexchange.com/questions/158219/is-a-matrix-multiplied-with-its-transpose-something-special

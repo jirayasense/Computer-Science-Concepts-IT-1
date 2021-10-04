@@ -1,0 +1,15 @@
+* Custom Data Structure & GC :
+  -----------------
+   -> When you implement a data structure of your own, then do remember to deallocate memory 
+      (c/c++) to avoid memory leaks 
+
+      Scenario :-
+        Let say Stack, POP operation 
+           -> the popped out object must be made null, so that it can be picked up by GC (java)
+              asa no one is referencing it.
+
+
+* Pre-Allocate Memory :
+  ---------------
+   -> If memory required is known earlier then don't do those at run time.
+      As it may incur a optimization 

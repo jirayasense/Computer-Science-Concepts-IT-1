@@ -1,0 +1,7 @@
+* Kotlin java Interop :
+  ----------------
+   -> @file:JvmName("UserExtensions")
+
+* Free Function :
+  -----------
+   global function (function that are not tied to any class)

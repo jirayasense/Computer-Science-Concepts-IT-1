@@ -1,0 +1,9 @@
+xml - xpath - xslt - cdata
+
+ref : https://www.educba.com/xml-cdata/
+
+
+
+
+ViewModel 
+  https://medium.com/androiddevelopers/viewmodels-a-simple-example-ed5ac416317e

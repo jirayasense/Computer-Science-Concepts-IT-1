@@ -1,0 +1,98 @@
+[Dart Design Patterns]  https://medium.com/flutter-community/flutter-design-patterns-3-template-method-89799d84e378
+
+Heart of OOPS/DP is 
+    \
+     -> Inheritance, Polymorphism, Abstraction
+
+--------------------
+
+Do Not Violate Open-Closed Principle -> modify existing code much...
+       
+
+
+---------------------
+
+* Adapter :
+  ------
+   -> That adapts the data from multiple source/format to our needs 
+
+   -> Eg Data from diff API to Ody2 format via xslt-transformation 
+
+       means for Adapter -> XSLT transformation (for xml incoming data)
+
+                            JSON-POJO transformation 
+
+* Template :
+  ------
+   -> behavioural dp
+
+   Steps of an algorithms are fixed & structured 
+   but 
+   implementation of those steps may differ internally.
+
+   HollyWood Principle :- Don't Call us, We will call you
+   
+   => High-Level Component manages when & how
+   => Low-Level Components never calls high-level components directly.
+
+   Higl-Level Components usually calls Low-level components 
+   & Low-Level Components don't calls themselves
+
+   --MIMP--
+    abstractions should not depend on details, 
+    but the details should depend on abstractions
+   --------
+
+   When to use Template approach :
+     - Implement invariant parts of algo (first go)
+     - Low-Level decide varying steps
+
+
+* Composition :
+  --------
+   (Tree DATA structure)
+
+   Any hirerachical data can be represented as Tree (leaf, composite)
+
+   Composite Pattern -> Widget tree in Flutter [Almost Widget is interface which we have to define]
+
+   1) Leaf -> no child, 
+              behaviour of primitive obj in Composition
+              don't have to delegate any work down the tree 
+
+   2) Composite -> children,
+                   delegate the works to children, process intermediate result & then returns the final result 
+
+   Client :
+     - use interface to interact with objects that is/resembles the composite structure,
+
+
+  Eg File & Directory
+
+
+* Strategy :
+  -------
+  (behavioural design pattern)
+
+  Encapsulate diff calculation logic in seperate classes i.e (Strategies) 
+
+  emphasis encapsulation 
+    to isolate the code, internal data, and dependencies of various algorithms from the rest of the code
+
+  The primary purpose of the Strategy design pattern is to encapsulate a family of algorithms (related algorithms) 
+  such that they could be callable through a common interface, 
+  hence being interchangeable based on the specific situation.
+
+  => Allows you to switch different logic calculation with single interface at run-time.
+
+  Eg - several if/else or switch statement
+       for diff behaviour (i.e enums)
+       \
+        You should opt for Strategy Pattern.
+
+  Open-Closed Principle -> You can add new Strategy(new algo) without interrupting existing one.
+  
+  => (Extract functionality from start) & Define Common Interface to interact
+
+     Why common interface ?? -> help to inject diff strategy (algo) at run time.
+

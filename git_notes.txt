@@ -1,0 +1,53 @@
+Git : PAT | SSH (instead of normal password)
+  - https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/
+
+[vcs ml code] https://algorithmia.com/blog/how-to-version-control-your-production-machine-learning-models
+[vcs ml model] https://towardsdatascience.com/version-control-ml-model-4adb2db5f87c
+
+
+git configurations :
+-------
+
+ - git config --global user.name "user_name"
+ - git config --global user.email "user_email@gmail.com"
+
+   git config --global credential.helper cache   //Cache the next username & password I gave So in future it can use same password for same username
+   git config --global --unset user.password
+
+   git config --global --add user.password "new_password"
+
+ - git config -l
+   
+   [Delete Your authentication]
+   
+ - git credential-osxkeychain erase
+   host=github.com
+   protocol=https
+
+
+
+ rebase git commits :
+------------
+
+  Squash :- Git squashing is achieved with a Rebase, of a special form called Interactive Rebase.
+  
+  git rebase -i branch#commitNo
+
+
+* git merge :
+  ------
+   git merge --no-ff documentation   // merge documentation branch into current branch
+                                     // flag prevents git merge from executing a "fast-forward" 
+
+
+
+
+----------------
+Readme & Markdown
+
+ online prepare :- readme.so 
+
+ template ref :- https://github.com/scottydocs/README-template.md
+
+ online edit :- https://stackedit.io/app#
+                https://dillinger.io/

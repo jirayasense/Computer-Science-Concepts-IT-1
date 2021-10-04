@@ -1,0 +1,20 @@
+* data class 
+
+* companion obj (static)
+  object expression & singleton 
+
+* let, by, with  //(scopes )
+
+* last-param lambda ending call 
+
+* delegated property (by keyword)
+
+* Nullable Reciever
+  Dispatch Reciever
+  Extension Reciever
+
+* namespace
+
+* Sealed Classes
+
+* When Expression
