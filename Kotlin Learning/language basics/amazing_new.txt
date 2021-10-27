@@ -7,6 +7,9 @@ Que -> What is dispatch reciever ??
      
      Tells kotlin to add more support to that functions
 
+     @Volatile 
+       writes to corresp property is available to other threads
+
 * To get Java Class from Kotlin Objects :
   ----------
    -> .javaClass

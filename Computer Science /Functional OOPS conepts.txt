@@ -13,7 +13,7 @@
 * String Character Sets (Unicode in common)   
 
 * Boxing, UnBoxing, Primitives, Wrappers(Java) Null Assignment   //{ Kotlin, C# }
-
+  
 * Monkey Patching // {Python}
 
 * Accessors vs Fields
@@ -21,7 +21,7 @@
 * mutability & constants, Immutable
   Mutable & Immutable Strings        (C#, Java - StringBuilder)
 
-* Conversion, Casting, Coercing, Implicit
+* Conversion, Casting, Coercing, Implicit, Upcasting   // Upcasting was supported in prev versions of dart
 
 * Inheritance vs Composition
 
@@ -32,7 +32,8 @@
   Runtime hierarchy checks  (Run time type vs Compile time type)
   Static vs Dynamic Binding
 
-* Covariance / ContraVariant
+* Covariance / ContraVariant / Invariant
+  Generics / List type conversion
 
 * ref, out, in
 
@@ -55,6 +56,10 @@
 * Generics
 * Nested Classes & namespace
   Lexical Scope
+
+* Full Qualifier Name (i.e static or inheritance case)
+
+* Initializer List   ( eg dart )
 
 
 -----
@@ -196,3 +201,7 @@ Tricky OOPS Que
 3) Sealed Classes vs Enum Classes (Kotlin)
 
 4) Polymorphism Tricky Que
+
+
+*QUE) What is Optimistic Update ??
+-> 

@@ -11,6 +11,9 @@ cache in python : https://docs.python.org/3/library/functools.html`
   NOTE :- python can canonicalized a tuple with max-to-max 256 elements
 
 
+* perf_counter() doesnt uses actually clock but it uses CPU clock cycles 
+  so you always need to use 2 time instances of perf_counter & subtraction to calculate elapsed time
+
 ---------------------------------------------
 
 Flavours of Python :

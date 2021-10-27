@@ -51,3 +51,19 @@ Readme & Markdown
 
  online edit :- https://stackedit.io/app#
                 https://dillinger.io/
+
+
+-----------------
+
+https://github.com/microsoft/vscode/issues/56664
+2021-10-10 11:55:19:443] 
+Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "RemoteConnectionError",
+  "gitCommand": "push",
+  "stdout": "",
+  "stderr": "Host key verification failed.\r\nfatal: Could not read from remote repository.\n\nPlease make sure you have the correct access rights\nand the repository exists.\n"
+}
+
+ssh validation failed 
+https://www.youtube.com/watch?v=IN89bys9uc8

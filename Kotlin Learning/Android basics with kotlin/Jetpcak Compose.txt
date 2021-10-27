@@ -41,7 +41,11 @@
             -> variable is transformed into state & state is observed by Compose
                i.e whenever variable changes Compose will be notified & part of Compsable fun will be updated becuase of ReComposition process.
 
-    
+    * rememberSavable :
+      ------
+       -> Survive Activity LieCycle Changes such as Orientation Changes 
+
+       
 * Stateful Composition & Stateless Composable : 
   --------------------------------------
 
@@ -69,3 +73,10 @@
   ----------
    State flows from ViewModels to Screen 
    Event Flows from Screen to ViewModel.
+
+
+* Coil :
+  --- 
+    rememberImagePainter()
+      \
+       builder -> It's a stack of composable (as far as my knowledge)

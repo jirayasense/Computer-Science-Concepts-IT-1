@@ -12,6 +12,8 @@
    int[][]
     -> 2D array  (We need to define size at root level & can make it dynamically sized)
 
+   Array.toString()
+
 * ArrayList :
   --------
    -> arrays i.e [] are of fixed size 
@@ -27,3 +29,7 @@
    -> To check if object is instance of particular type i.e 
        a = 10
        a instanceof Integer 
+
+* `+` operator :
+  ------
+   -> define for primitves & only when 1 of operand is String type

@@ -4,7 +4,7 @@
 
 * Safe Args :
 
-* Data Binding :
+* Data Binding : One Way & 2 way
 
 * Data Binding Expression :
 
@@ -19,3 +19,7 @@
 * navArgs   :- navigation arguments (safe arguments)
 
 * Singleton Objects :- object
+
+* Repository Pattern
+
+* Dependency Injection / Inversion

@@ -5,7 +5,7 @@
 5) Inline ternary condition
 6) zip 
 7) unpacking vs extended unpacking
-8) *args & **kwargs
+8) *args & **kwargs and splat operator (*, **)
 9) For Else & While Else
 10) sort by key
 11) itertools   {accumulate, chain, compress}

@@ -22,7 +22,8 @@ Best Python Online Interpreter :
    
    Python Course eu :- https://www.python-course.eu/python3_class_and_instance_attributes.php
    
-
+   FullStackPython - https://www.fullstackpython.com/
+   
 -----------
 
 real python :

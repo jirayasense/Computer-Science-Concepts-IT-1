@@ -21,5 +21,6 @@ Q |-> Why google introduce flutter despite they back heavily for Native(Kotlin) 
 * Dart Nested Class (not supported) ??
   ---------
 
-* Q) Why class with name `Object` is allowed to be declared in dart, eventhough There exists already inbuilt class for same in dart at root i.e Object ??
+* Q) Why class with name `Object` is allowed to be declared in dart, 
+     eventhough There exists already inbuilt class for same in dart at root i.e Object ??
   

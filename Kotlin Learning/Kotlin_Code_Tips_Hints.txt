@@ -136,3 +136,8 @@ TaskStackBuilder.create(this).run{
     getPendingIntent(0, PendingIntent.FLAG_UPDATE_CURRENT)
 }
 
+//Interrupt Current Thread 
+Thread.currentThread().interrupt()
+
+
+

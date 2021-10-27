@@ -330,6 +330,13 @@ siwtch() stmt :
    -----
     -> delegate to another generator from one generator
 
+    -> Think of it as 2 person helps in transfering bricks for building wall 
+        Where 1 person do check of brick quality & 
+              other person just take that brick from that qa person & pass it forwards
+               
+            So 1 is actually doing work & other just helps transfering the brick to other place 
+            So that first person can do next things 
+
 
 * Streams vs Iterables :
   ------------

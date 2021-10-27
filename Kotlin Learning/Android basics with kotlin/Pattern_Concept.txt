@@ -1,0 +1,8 @@
+* singleton :
+  ------
+   => private constructor + Companion Object 
+      or 
+      Factories in Flutter/Dart  // easy way to create singleton
+   
+   -> Here we will require Private Constructor + Companion Object 
+      to implement Singleton Pattern in Kotlin

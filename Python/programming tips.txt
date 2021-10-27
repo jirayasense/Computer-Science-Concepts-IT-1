@@ -19,6 +19,9 @@
        from __main__ import obj_name
 
 
+* you can use `pdb` module for debugging purpose.
+
+
 * list(collection) related tips :
   ---------------------------
 
@@ -57,6 +60,19 @@
       Here it's complexity will not be only 4 but 0 -> 13 i.e 14 instead
 
 
+* Python equivalent of tic-toc from matlab for timing :
+  ------
+   ref -> https://stackoverflow.com/questions/5849800/what-is-the-python-equivalent-of-matlabs-tic-and-toc-functions
+
+   1) timeit()   // for small LOC 
+   2) time.perf_counter()  // for medium 
+   3) time().time()    // for any
+
+
+* f-string :
+  -------
+   -> !s is applied before other string formatting  (i.e in Conversion)
+
 
 * useful Python functions :
   ---------------
@@ -78,7 +94,7 @@
 * useful python concepts :
   -------------
    - circular references.
-     
+   - Pattern Matching
     
     
 

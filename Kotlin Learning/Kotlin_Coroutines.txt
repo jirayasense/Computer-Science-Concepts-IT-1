@@ -216,3 +216,9 @@
 
 
 * measureTimeMillis{}
+
+
+* Thread :
+  ----- 
+   sleep()
+   interrupt()  // after thread is sleep we can use interrupt() to awake it 

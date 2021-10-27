@@ -20,3 +20,10 @@
    -> inlining function will eliminate function calling overhead
    -> inline function should be always used with reified type parameter
 
+
+* infix function :
+  ------------
+   -> Eg `with()`
+      
+      Such function dont require dot notation
+

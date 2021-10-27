@@ -135,3 +135,5 @@ References :
 - CircleImageView
 
 - Anko -> Toast, Snackbar
+
+- kodein -> DI

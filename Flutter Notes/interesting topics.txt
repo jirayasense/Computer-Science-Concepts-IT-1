@@ -16,6 +16,11 @@ To Learn :
   - Internationalization / Localization 
   - Dependency Injection (Locator Service)
 
+  - Theme manager DarKmode
+  - Search & Filter in ListView
+
+  - ScopedModel
+
  Dart ::
   
   - mixin
@@ -50,7 +55,7 @@ Q. override in dart vs c# ??
       but in dart inorder to see effect of override the 
 
 
-Q. upcasts in dart :
+Q. upcasts in dart :  (support till Non-Null safe versions only)
   
    B b = a (a is instance of A & B is child of A)
 

@@ -1,0 +1,45 @@
+Tips :
+  
+-> When array is sorted & you need to add new element into array at correct location
+    1) Binary Search & Swap 
+    2) Insertion Sort
+
+-> In sorted array (1 -> n)
+   property :- index = element-1
+
+
+* Stable Sort (Order should be same when value is same)
+
+* Bubble Sort : ()
+  ----
+   -> Also known as Sinking Sort | Exchange Sort
+   -> Inplace
+   -> Space - O(1)
+   -> Largest element at the end at each step
+   -> Counter + Pointer
+
+
+* Selection Sort :
+  ----
+   -> Not Stable
+   -> performs well for small lists
+
+
+* Insertion Sort :
+  ----
+   -> Partially Sort 
+   > Good if array is already sorted & to insert new item
+   -> insert item to correct position in current array
+
+   -> # swaps reduce compare to bubble sort 
+   -> smaller values of n & when array is partially sorted 
+   -> part of hybrid sorting algo
+
+
+* Cyclic Sort :
+  -----
+   -> Sort in single pass (n comparision)
+
+   => In sorted array index = element-1
+
+   element from 1 -> n  or continuous numbers

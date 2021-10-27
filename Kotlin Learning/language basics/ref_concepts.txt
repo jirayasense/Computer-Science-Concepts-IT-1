@@ -10,3 +10,7 @@ Inheritance : (Java)
 
 Kotlin Lang :
   https://www.cosmiclearn.com/kotlin/treeset.php
+
+
+High order fun - lambda - anonymous fun 
+  https://www.journaldev.com/18835/kotlin-lambda-higher-order-functions

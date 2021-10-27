@@ -1,3 +1,7 @@
 1) Kadane's algorithms
 
 2) Decision Tree (Appraoch | For Dynamic Programming Problem Solving)
+
+
+list of alog:- https://github.com/xizhengszhang/Leetcode_company_frequency
+

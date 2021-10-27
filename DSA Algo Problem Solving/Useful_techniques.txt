@@ -4,6 +4,10 @@ TIP -> Always first think for bruteforce approach
 
 2) Kadane's Algorithm  (For max SubArray Sum)
 
+3) 2 Pointers (Ramesh-Suresh)  (alike Quick Sort)
+
+4) Fast & Pointer to find the middle index of List
+
 
 => When you need to find something potential ans in a range (i.e start & stop)
     - binary search can be useful

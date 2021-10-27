@@ -130,3 +130,47 @@
    }
 
     addNextIntentWithParentStack(intent)   // allows us to fallback to intent when back button is pressed
+
+
+* Intent service :
+  --------- 
+   -> Continue to service even when app is minimzed (i.e Work in Background)
+   -> It will work on diff thread & not on UI/Main Thread
+   -> If you want to use mutlithreading then you cannot use intent-service for that
+
+   -> IntentWork Queue  // service will be processed 1 intent at a time.
+
+   IntentService (extend this class)
+
+  Que -> To interrupt current Thread :-
+        \
+         -> Thread.currentThread().interrupt()
+
+
+  To tell our app that we have service & we are using it :-
+    AndroidManifest.xml
+
+    create `<service></service>` after activity tag
+
+
+ NOTE -> Thread.sleep() // can throw InterruptedException
+
+   startService()   // is used to start the Intent Service
+
+
+* Service :
+  ---
+   IntentService will run in Seperate thread 
+    but IntentService wont support mutlithreading 
+
+   Service will support mutlithreading but It will run in main thread
+   So you should manually start new Thread 
+
+   We will start Service with some intent
+
+   Tip :-
+          use Thread{}.start()  to start service with heavy logic as Service by default run in main thread
+      
+
+   => Service will keep running until it's destroyed by System or itself
+      IntentService will destroy automaticaaly once onHandleIntent() is completed

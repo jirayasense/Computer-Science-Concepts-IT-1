@@ -5,3 +5,9 @@
 * Free Function :
   -----------
    global function (function that are not tied to any class)
+
+* synchronized block :
+  ---------
+   synchronied(lock:this){
+     // allowing only 1 thread to ente this block at a time
+   }

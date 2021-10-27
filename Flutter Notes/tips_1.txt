@@ -15,3 +15,5 @@
   ------------
    In Flutter, a Widget, usually a Scaffold , can consume viewPadding, padding or viewInsets 
    and modify the MediaQuery which then is passed down to it’s child.
+
+* barrel file = file of import statements 

@@ -1,0 +1,9 @@
+* Union & Find :
+  ----------
+   Idea : Magnets
+
+   Application : Minimal Spanning Tree
+
+
+
+   

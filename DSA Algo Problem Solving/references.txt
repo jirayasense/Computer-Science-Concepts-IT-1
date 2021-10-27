@@ -6,6 +6,8 @@ https://emre.me/categories/#data-structures
 
 https://big-o.io/algorithms/comparison/cycle-sort/
 
+https://www.geeksforgeeks.org/mathematical-algorithms/mathematical-algorithms-gcd-lcm/  [mathematical algorithms]
+
 
 Competitive Programming Algorithms :   [MIMP]
      https://cp-algorithms.com/

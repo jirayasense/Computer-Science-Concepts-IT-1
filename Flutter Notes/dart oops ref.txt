@@ -19,3 +19,29 @@
 * Constructor Expressions :
   --------------
    factory constructor can be assigned using `=` during initialised i.e redirection
+
+
+* Mixins Facts :
+  ---------
+   => Mixins can't have constructors
+      
+      But you can access Mixin in your class methods 
+
+      Note -> if mixin have instance member then it can't be accessed inside static scope
+
+* static members concept :
+  ----------
+   -> as we know static methods can access static fields 
+
+      scenario 1) -> If static memebers is present in enclosing class 
+                     -> then static methods of same class can access without full qualifier name
+
+               2) -> If static members is from Inherited class 
+                     -> then you need to use full qualifier name i.e (ClassName.memberName) in 
+                        the Child's static methods.
+   
+* this & super, inheritance :
+  ----------------
+   -> Initializer List can be used for list for enclosing class only  
+      \
+       Why ? because `this` refer to enclosing class only so.

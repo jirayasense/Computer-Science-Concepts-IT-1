@@ -3,7 +3,8 @@
 * companion obj (static)
   object expression & singleton 
 
-* let, by, with  //(scopes )
+* let, by, with, also  //(scopes )
+* lambda functions unique syntax with function param
 
 * last-param lambda ending call 
 
@@ -18,3 +19,5 @@
 * Sealed Classes
 
 * When Expression
+
+* Multi-Threading

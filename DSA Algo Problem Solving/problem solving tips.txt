@@ -16,3 +16,5 @@ AMAZING QUE : Why -ve num can't be base ??
 * use 'math.sqrt()' or 'math.isqrt()' function :
   ----------
    -> 
+
+* range [1, n] given : use Cyclic sort

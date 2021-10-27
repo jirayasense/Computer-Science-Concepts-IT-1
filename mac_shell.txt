@@ -46,3 +46,6 @@ gp – git push
 gpf! – git push --force
 grhh – git reset --hard
 gst – git status
+
+* clear the terminal : `ctrl + L`
+  ----------

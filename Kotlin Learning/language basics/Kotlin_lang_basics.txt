@@ -271,7 +271,7 @@ _____________________________________________________________________
   reified :
   -----
    -> we can use class type as parmeter i.e with `is` & `as`, directly withour require `::` operator
-   ->  allow you to use a generic type, but retain information about that type.
+   -> allow you to use a generic type, but retain information about that type.
 
 gist -> `Type erasure` means that, within a class or interface that takes a generic type, 
         you won't have any information about that type at compile time unless you annotate the

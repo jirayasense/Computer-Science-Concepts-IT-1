@@ -66,3 +66,19 @@
     --------
     (ref : https://stackoverflow.com/questions/33054527/typeerror-a-bytes-like-object-is-required-not-str-when-writing-to-a-file-in)
      -> open file will return bytes object on read, not strings
+
+17) os.rmdir() is used to remove empty directory. ( i.e no sub dir or files)
+    use shutil.rmtree()  // to remove non-emty directory
+
+
+18) Bare Exception :
+    --------------
+     (ref : https://www.flake8rules.com/rules/E722.html)
+
+     
+19) Wonky behaviour `+=`
+    -----------
+     When your immutable object contains mutable object & 
+      You tries to use += on your that mutable object it will behave differently
+
+      

@@ -1,0 +1,4 @@
+* COil :
+  -- 
+   - make sure to android:usesClearTextTraffic = "true" in <application> tag of manifest file
+   

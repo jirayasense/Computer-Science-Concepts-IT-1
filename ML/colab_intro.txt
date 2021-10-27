@@ -1,0 +1,12 @@
+To use any file store inside your drive (i.e csv)
+  
+  -> from google.colab import drive
+
+     drive.mount('/content/grive')  // This will fixed signature for any type
+
+
+Q How to make table of content ?
+ -> 1 Create a new section 
+    2 add `#` before 
+    
+    Heading will appear in table of content

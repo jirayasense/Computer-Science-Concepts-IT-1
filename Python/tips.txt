@@ -6,7 +6,8 @@
 
 -----------------------------
 
-1) Use any() or all() whenever its suited
+1) Use any() or all() whenever its suited, those are equi to 
+  logical OR    logical AND 
 
 2) Guard Clause | Statement 
     \
@@ -22,6 +23,19 @@
 
 6) Positional only parameter :- use forward slash i.e `/`
 
+7) use `string` module whenever you want to mess with ord(), chr() or likewise str manip 
+
+   NOTE -> ascii subtraction is not supported in python
+
+8) If you have ability to use built-in function than use such function instead of for loop or while loop
+    
+9)  `+=` when used with mutable types such as `list` will perform inplace operation 
+         i.e `iconcat()`
+
+10) perf_counter() doesnt uses actually clock but it uses CPU clock cycles 
+  so you always need to use 2 time instances of perf_counter & subtraction to calculate elapsed time
+
+11) f-string format specifier i.e after colon `:` is calling __format__() dunder on the object
 
 -------reference
 
@@ -56,10 +70,21 @@ Articles :- analytics vidhya
 
 11) to print doc of python file just use first Statement i.e `print(__doc__)`
 
+12) To remove non-emtpy directory -> shutil.rmtree()
+    To remove empty directory     -> os.rmdir()
+
+13) To generate series of float step-size (eg 0.5) -> itertools.count() + itertools.islice()
+
+14) In f-string conversion technique -> !s is applied before other formatting
+
+15) set recursion depth limit :- sys. setrecursionlimit()
+
 --------------
 
 Python builtin frequently used 
 
 isinstance(), type(), any(), all(), min(), max(), sum(), prod()
+ord(), chr(), issubclass()
+round(), truncate()
 
 zip(), enumerate(), reduce(), partial(), 

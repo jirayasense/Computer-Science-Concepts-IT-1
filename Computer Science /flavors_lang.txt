@@ -1,3 +1,11 @@
+NOTE -> 
+
+  Java supports ascii subtraction i.e 'c' - 'a',
+
+  Whereas python do not == ord('c') - ord('a')
+
+
+
 * C#
   ---
    -> Boxing UnBoxing
@@ -15,6 +23,7 @@
    -> Anonymous Objects  (via object)
    -> reified parameter
    -> Delegated Properties  (`by`)
+   -> Infix function (eg with, matches, etc...)
 
 
 * Java 
@@ -27,8 +36,17 @@
 * Python  
   -----
    -> Multiple assignment
-   -> tuple
+   -> Chained Comparisions
+   -> tuple (tuple unpacking)
    -> dunder (magic) methods  &  facade methods
    -> generator & context
    -> namespace, loader, executor
-   -> garbage Collector & ref Counts
+   -> garbage Collector & ref Counts (generational GC)
+   -> *args, **kwargs
+      arguments unpacking & packing
+   -> Monkey Patching & Dynamic Monkey Patching
+   -> GIL (global interpreter lock) 
+   -> Augmented assignments (Shorthand Assignments i.e __iadd__)
+   -> Pattern Matching (i.e tuple unpacking, list unpacking, etc...)
+
+  

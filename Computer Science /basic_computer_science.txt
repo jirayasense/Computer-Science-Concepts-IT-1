@@ -79,6 +79,10 @@
   -----
    -> hashcode() & equals()
 
+* Float & Computer :
+  ----------
+   -> Computer don't represent floating point number in accurate way
+
 -----------------------------
 
 Algorithms

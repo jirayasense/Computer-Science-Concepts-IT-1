@@ -1,3 +1,6 @@
+
+
+
 * Custom Data Structure & GC :
   -----------------
    -> When you implement a data structure of your own, then do remember to deallocate memory 
@@ -13,3 +16,9 @@
   ---------------
    -> If memory required is known earlier then don't do those at run time.
       As it may incur a optimization 
+
+
+* When given range from 1 -< n :
+  ------
+   -> Use Cyclic Sort
+       Eg - find missing number

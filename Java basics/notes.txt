@@ -25,6 +25,9 @@ var args in Java -> `...args`   // in function definition
 
 getClass() -> to get class type of an object in java
 
+`+` operator 
+   -> define for primitves & only when 1 of operand is String type
+
 -----------------------------------
 
 * Imp topics :
@@ -69,3 +72,51 @@ getClass() -> to get class type of an object in java
 
    -> package-private 
       access inside same package only
+
+
+* ascii subtraction :
+  -------
+   -> Java supports ascii subtraction i.e 'c' - 'a' = 2
+
+
+* String :
+  ------
+   1) String Pool 
+      
+      - seperate memory str inside Heap 
+      - all similar values are not re-created inside string pool 
+      - helps to achieve interning & optimise 
+      -> String Pool is basically meant for Immutable Objects
+
+   2) Immutability
+
+   Why are string immutable ? -> for security & atomicity
+
+   -> `==` to check the reference of 2 strings in String Pool 
+   -> use `new` keyword to create string object outside of String Pool 
+
+   To check value only used :- `.equals()` method
+
+   methods :_ equals(), charAt()
+
+   String.valueOf()
+
+   -> System.out.printf() : used for formatted string print
+
+  NOTE :- When int is concatenated with string, int get converted to Wrapper class i.e Integer 
+          ie Auto-Boxing
+
+          "a" + 1 -> a1
+
+  Amazing :-
+   =====
+    -> If you want to add character in your string you are having complexity of n or n-squared.
+
+       As each time new obje is going to be created in memory
+
+  Mutable String :
+  ------------
+   StringBuilder :
+      - like arrays for character
+      - reference remains same
+    
