@@ -18,3 +18,25 @@ AMAZING QUE : Why -ve num can't be base ??
    -> 
 
 * range [1, n] given : use Cyclic sort
+
+* for rhs set bit :- n & -n 
+  for checking if num is power of 2 :- n & (n-1)
+
+
+* To reverse a bit :- Do XOR i.e `^`
+
+* sliding windows for long size array
+
+* use dummy node in case of array or linked list to cover edge cases
+
+* Use Heap DS to find something like Kth largest or smallest element 
+
+* heapq lets you fetch top t of n items in O(t+n) time
+
+* bisect let you fetch a range from sorted list or array using binary search
+  
+* Tree problems can be solved in 2 ways :- 1) Decision Tree 
+                                           2) backtracking
+
+* Subset Kinda Problem 2 ways :- 1) Explore & backtrack 
+                                 2) Processed & UnProcessed

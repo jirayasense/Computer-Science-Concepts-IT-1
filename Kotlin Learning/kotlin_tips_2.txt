@@ -117,6 +117,15 @@ References :
    Animation 
    AnimationUtils.loadAnimation()
 
+
+* Stateflow observer in lifecycle scope :
+  -------
+   lifecycleScope.launchWhenStarted{} 
+
+* For Firebase Cloud messaging :
+  ----
+   FirebaseInstancIdService
+
    
 
 //----------- Third Party Package For Android (Kotlin)
@@ -137,3 +146,6 @@ References :
 - Anko -> Toast, Snackbar
 
 - kodein -> DI
+  DaggerHilt
+
+- groupie -> RecyclerView  // (all of notifying & extra stuff done by groupie library)

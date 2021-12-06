@@ -7,3 +7,5 @@
 [dunders in python] https://www.section.io/engineering-education/dunder-methods-python/
 
 [mCoding Python] https://github.com/mCodingLLC/VideosSampleCode
+
+[Algorithm Analysis] http://www.openbookproject.net/books/pythonds/AlgorithmAnalysis/Lists.html

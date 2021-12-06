@@ -2,6 +2,48 @@
 
 2) Decision Tree (Appraoch | For Dynamic Programming Problem Solving)
 
+3) KMP algo (Knuth Morris Pratt)
+
+4) Sliding Window for manipulaitng on big size array
+
+5) quick Select (same as Quick Sort)
+
 
 list of alog:- https://github.com/xizhengszhang/Leetcode_company_frequency
 
+* Sieve of Erastothenisis :
+  -------------
+   - start with 2 & all its multiples : not prime 
+   - do same thing with 3 & all its multiples
+
+* Knuth Morris Pratt (KMP algo) ' 
+  ------------
+   - For substring index finding
+   -> O(n + m)
+
+   -. longest prefix suffix
+       \
+        LPS array -> keep track of Longest prefix thats equal to longest suffix
+
+   LPS array building : O(2 * n)
+
+* Binary Search or Bisection Search :
+  ----------
+   -> rule : at each step ruleout space by half
+
+
+* DFS & Recursion :
+  ---------
+   DFS is well suited with Recursion because Recursion needs Stack as DS to be get implement seamlessly
+   &
+   Recursion involves the  Func call itself till base case &
+             this function internally aree piled up using stack by the compiler
+
+  So when you use the DFS with Recursion you are already implementing the DFS using Stack
+
+
+* Tree Traversal Techniques:
+  ------
+   1) Recursive DFS 
+   2) Iterative DFS 
+   3) BFS

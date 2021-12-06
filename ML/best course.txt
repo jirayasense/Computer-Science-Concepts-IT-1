@@ -53,3 +53,42 @@ Best Articles ------------------
  Statistics Mini Course :-
     https://machinelearningmastery.com/statistics-for-machine-learning-mini-course/
 
+
+---------
+Youtube reference :
+  
+handson :-
+  CodeBasics
+  SentDex 
+  Corey Schaffer
+  Keith galli
+  Python Engineer
+  Tech with Tim
+  
+theory :-
+  Krish Naik
+  ritvik math
+  Code Basics
+  StatQuest with Josh
+  Serrano Academy
+  Khann Academy
+
+  Steve Brunton (ML Math Topics)
+     \
+      - data driven science & Engineering
+      - Intro to data science
+      - SVD 
+      
+  
+  Normalized Nerd 
+  Weights & Biases
+  Inntutive Machine Learning
+
+Maths & Stats :-
+  3 blue 1 brown
+  Tibees
+  MartinStatsLecture
+  Visually Explained
+
+
+

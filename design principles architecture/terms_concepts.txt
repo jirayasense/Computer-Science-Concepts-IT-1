@@ -1,0 +1,8 @@
+Dart 
+
+Singleton 
+Factory 
+Inheritance | Abstraction | Interface 
+enums
+
+Dependency Injection

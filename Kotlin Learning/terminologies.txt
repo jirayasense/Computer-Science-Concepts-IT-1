@@ -23,3 +23,13 @@
 * Repository Pattern
 
 * Dependency Injection / Inversion
+
+
+--------
+
+Topics :
+
+- navHostFragment  // Host the fragment layout 
+  navgraph
+
+- Menu 

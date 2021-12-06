@@ -48,5 +48,16 @@ NOTE ->
    -> GIL (global interpreter lock) 
    -> Augmented assignments (Shorthand Assignments i.e __iadd__)
    -> Pattern Matching (i.e tuple unpacking, list unpacking, etc...)
+      (switch case in python using pattern matching)
+   -> Duck Typing
+   -> EAPF (Pythonic :- Easier to ask permission than Forgiveness)
+   -> LBYL (Non-Pythonic :- Look before you lead)
+
+   -> Sloted Objects  & non-slotted objects 
+   -> __slots__ vs __dict__ 
+   -> weakreference
+   -> free list  (for tuple canonicalization)
+   -> Window vs Iterable vs Iterator
+
 
   

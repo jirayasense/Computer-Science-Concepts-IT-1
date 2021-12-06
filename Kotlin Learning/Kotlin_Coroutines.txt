@@ -222,3 +222,17 @@
   ----- 
    sleep()
    interrupt()  // after thread is sleep we can use interrupt() to awake it 
+
+
+annotations :
+----------
+
+1) Volatile :-
+=> use @Volatile to mark thise field or property, which needs to be access by 
+   only 1 thread at a time 
+   @volatile will make that particula field visible to all other threads
+
+
+synchronied(){} blocks :
+-----------
+ -> allows to execute block to be executed by one thread at a time.

@@ -77,7 +77,13 @@ Articles :- analytics vidhya
 
 14) In f-string conversion technique -> !s is applied before other formatting
 
-15) set recursion depth limit :- sys. setrecursionlimit()
+15) set recursion depth limit :- sys.setrecursionlimit()
+
+16) To see underlying full repr of bits :- struct.pack()
+
+17) fetching a range & list or array is sorted :- then use -> bisect module
+
+18) heapq lets you fetch top t of n items in O(t+n) time
 
 --------------
 

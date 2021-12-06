@@ -4,6 +4,8 @@
 
    Application : Minimal Spanning Tree
 
+  Path Compression :
+  ---------
 
 
    

@@ -1,5 +1,6 @@
 
 1) Maximum SubArray Sum - Kadane's Algorithm
+   Prime Less than  :- Sieve of Erastothenisis
 
 Linear Search :
    Fair Candy Swap https://leetcode.com/problems/fair-candy-swap/
@@ -18,4 +19,25 @@ Binary Search :
    Split Array Largest Sum (https://leetcode.com/problems/split-array-largest-sum/)
    Kth missing element   (https://leetcode.com/problems/kth-missing-positive-number/)
 
+-** Sliding Window Maximum (Deque) (https://leetcode.com/problems/sliding-window-maximum/)
+
+
+Sorting  :
    
+   n largest elem - (Heap Sort) | (https://leetcode.com/problems/maximum-product-of-three-numbers/submissions/)
+   kth largest element - [Heap ds] (https://leetcode.com/problems/kth-largest-element-in-an-array/)
+
+   top kth frequent elements - [Bucket Sort alike Logic] (https://leetcode.com/problems/top-k-frequent-elements/)
+
+Recursion :
+Tree :
+   
+   BFS (https://leetcode.com/problems/rotting-oranges/)
+   DFS (https://leetcode.com/problems/path-sum/)
+   DFS-BFS 
+
+   Cartesian Product (https://leetcode.com/problems/letter-combinations-of-a-phone-number/)
+
+   Unique Permutation (DFS|Backtrack) (https://leetcode.com/problems/permutations-ii/)
+
+   Longest Path between 2 nodes (Bottom Up | DFS) (https://leetcode.com/problems/diameter-of-binary-tree/)

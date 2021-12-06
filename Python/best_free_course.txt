@@ -43,6 +43,7 @@ CheatSheet | Gist Python
 
 [patloeber] https://patloeber.com/10-python-basics-you-should-know
 
+[pynative] https://pynative.com/python-random-choice/
 
 ------------
 
@@ -50,6 +51,8 @@ For Emails :
 
   real python 
   academia.edu
+
+  revue.co
 
 
 ---------------
@@ -60,9 +63,18 @@ For Emails :
    CS NOTEs :    https://github.com/CyC2018/CS-Notes  
    Python Algo : https://github.com/TheAlgorithms/Python   
 
+   Python WTF : https://github.com/satwikkansal/wtfpython#-first-things-first-
+
 
 ----------------
  Youtube
 
    Memory management :- python 101 #3 (https://www.youtube.com/watch?v=OdQSWuG78Sk&t=165s)
    Memory management in Python- the basics - (https://www.youtube.com/watch?v=URNdRl97q_0) 
+
+
+------------
+(Certifications)
+
+Google IT automation (CourseEra)
+Google Data Aanalytics Professional Certificate

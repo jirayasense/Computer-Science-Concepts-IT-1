@@ -18,7 +18,7 @@ def maxSubArray_ka(nums: List[int]) -> Tuple[List[int], int]:
     max_sum = nums[0]
     for i, n in enumerate(nums[1:], 1):
         curr_sum += n
-        if curr_sum < n:
+        if curr_sum < n:  # case esp when -ve numbers arrives between 2 positive nums
             ptr1 = ptr2 = i
             curr_sum = max_sum = n
         elif curr_sum > max_sum:

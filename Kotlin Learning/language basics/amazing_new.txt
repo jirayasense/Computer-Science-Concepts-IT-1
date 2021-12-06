@@ -17,3 +17,10 @@ Que -> What is dispatch reciever ??
 * To get Class Object from class name i.e string  :
   ----------
    -> Class.forName('className')
+
+
+* abstract class in kotlin can be invoked via ClassName() ??
+-> how ? -> need to over
+
+* You can use anonymouse object ie with {} for implementing the interface at run time
+  also

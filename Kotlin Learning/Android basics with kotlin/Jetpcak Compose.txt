@@ -1,4 +1,12 @@
-* Recomposition :
+=> State inn Compose (ie func) needs to be Remembered (MIMP property)
+
+=> Hois State to altleast lowest Common ancestor of its consumers
+
+=> UI behaviour logic should always live in Composition
+
+=> View Model can be used as State Holder for State that is governed by the business Logics
+
+* Recomposition 
   -----------
     There are 2 things for Compsable i.e 
      1) InitComposition
@@ -80,3 +88,13 @@
     rememberImagePainter()
       \
        builder -> It's a stack of composable (as far as my knowledge)
+
+
+* State Holder :
+  -------
+   Instead of remembering state directly in composable,
+     Use Class for that purpose
+
+     Such class are known as State Holder
+
+     State Holder also often resides & live the life-cycle of composable function

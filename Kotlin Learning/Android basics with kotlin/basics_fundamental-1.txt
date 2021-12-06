@@ -174,3 +174,13 @@
 
    => Service will keep running until it's destroyed by System or itself
       IntentService will destroy automaticaaly once onHandleIntent() is completed
+
+
+* BroadCast Reciever :
+  -------------
+   -> When any broadcast message is broadcasted by the android device system 
+      Eg Aeroplane Mode On Off
+         
+         -> You can listen such updates via BroadCastReciever()
+            
+            

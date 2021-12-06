@@ -5,3 +5,7 @@
         <shape> 
             ....
         </shape>
+
+* To get resource from android package : (image)
+
+  format for URi :- "android.resource://$packageName/$resrcName

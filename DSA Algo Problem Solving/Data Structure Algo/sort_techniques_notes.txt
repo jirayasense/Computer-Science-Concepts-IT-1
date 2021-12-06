@@ -43,3 +43,37 @@ Tips :
    => In sorted array index = element-1
 
    element from 1 -> n  or continuous numbers
+
+
+* Merge Sort :
+  --------
+   mine intution :- 
+     merge the lg(n) times & for each merge we will have asymptotically O(n) Complexity 
+     So overall :- n * O(lg(n))
+
+
+* Quick Sort :
+  ---------
+   Put the pivot at correct location at each iteration
+
+   Idea Impl :- 2 pointer ramesh suresh
+
+   NOTE :- In merge sort evennthough array is sorted we need to boil down to base conditions
+           which is not in the case of quick sort
+
+
+* Hybrid Sorting Algo :
+  --------
+
+   1) Tim Sort (Python)
+    -----
+   (Merge Sort + Insertion Sort)
+
+   Works well with partially sorted data 
+     \
+      because insertion sort is best for partially sorted data & 
+      merge sort is best in case of general as its worst case complexity = nlg(n)
+
+   
+   2) Dual Pivot Quick Sort :
+    -------

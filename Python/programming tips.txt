@@ -66,12 +66,31 @@
 
    1) timeit()   // for small LOC 
    2) time.perf_counter()  // for medium 
-   3) time().time()    // for any
+   3) time.time()    // for any
+   4) time.clock()   
 
 
 * f-string :
   -------
    -> !s is applied before other string formatting  (i.e in Conversion)
+
+* If you want to compare 2 floats exactly then :- use Decimal library
+   - Decimal stores number as string
+
+* Use enumerate() when you want indices along with element while looping
+
+* perf_counter :
+  ------
+   time.time() is not as accurate as time.perf_counter()
+
+* clock() :
+  ----
+   time.clock() can also be used to track down time 
+
+* sys.getsizeof() do accounts the size of sub-objects
+
+-> generators are more readable & simplier than List often times
+  (when used with yield Statement)
 
 
 * useful Python functions :
@@ -80,13 +99,13 @@
    -> itertools : accumulate, takewhile(), chain(), compress()
    -> collections : namedtuple, Counter, deque, frozenset, defaultdict
    -> math : log(), floor(), ceil(), round()
-   -> sys : maxsize, argv, 
+   -> sys : maxsize, argv, getsizeof()
    -> file: 
    -> pathlib: 
    -> os : 
    -> dict : setdefault()
    -< heapq : heapq
-   -> time: time()
+   -> time: time(), clock(), perf_counter()
    -> keyword : keywrod.kwlist
    -> operator : operator.attrgetter(), itemgetter()
 

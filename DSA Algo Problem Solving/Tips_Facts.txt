@@ -1,6 +1,4 @@
 
-
-
 * Custom Data Structure & GC :
   -----------------
    -> When you implement a data structure of your own, then do remember to deallocate memory 
@@ -22,3 +20,9 @@
   ------
    -> Use Cyclic Sort
        Eg - find missing number
+
+* Use HeapQ when need to find n largest or n smalleset elements
+
+* Use Bucket Sort like technique for Counter kinda thing & when the values are bounded
+
+* Use backtracking in case of Tree like problems

@@ -1,0 +1,14 @@
+* Naviagtion Controller - control switching between screens
+  
+  Navigation Host - host the current route in itself
+                  - It will keep all the routes & host the current one as per guided by nav controller
+
+
+----
+
+- Way to represent the routes :- Sealed Class
+
+navController.navigate()
+             .popBackStack()
+
+             popUpTo()

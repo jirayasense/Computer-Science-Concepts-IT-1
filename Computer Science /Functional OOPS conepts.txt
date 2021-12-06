@@ -96,6 +96,8 @@ Functional Programming :
 
  - Free Function (Global Function)
 
+ - Free List (Python)
+
 
 * Package - Top Level Directory
   Module -> a module is a set of Kotlin files compiled together
@@ -205,3 +207,12 @@ Tricky OOPS Que
 
 *QUE) What is Optimistic Update ??
 -> 
+
+
+---------------
+(ANDROID)
+
+q1) Diff betweeen Flutter vs Kotlin Compose :
+
+  -> Widgets in Flutter are objects of Classes 
+     Composable in Kotlin are objects of Functions   

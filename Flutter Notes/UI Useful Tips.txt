@@ -4,6 +4,6 @@
 
 * Alert Dialog is used typically with showDialog
 
-* ConstrainedBox vs LayoutBuilder
+* ConstrainedBox vs LayoutBuilder   // for constraints
 
 * ScopedModel & Dialog & Scaffold Context

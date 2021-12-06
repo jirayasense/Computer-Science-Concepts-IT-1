@@ -6,3 +6,10 @@
 
     => Do not count Input and Output Space i.e as those are trivial
        (for any algo, you require Input & Output Space) 
+
+
+* Recuresion & DP :
+  ---
+   -> when you go for Permutation & Combinations = BruteForce = Worst 
+
+      Recursion + DP = Good + Worst = Avg = Greedy(Eager)

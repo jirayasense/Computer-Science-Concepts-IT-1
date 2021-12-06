@@ -79,3 +79,40 @@ MIMP ->>>
 
 ===================================
 
+* Some Kotlin Facts from designer of Kotlin :
+  ----
+
+- Data Classes :- less bloated & easy to consume
+   
+- Delegation Property : (Abstraction mechanism)
+  -----------
+   - helps you to get rid of repeatation of the lazy logic
+   -> by lazy {}
+
+- Extension methods in  kotlin  = Monkey Patching in Python
+
+- Sealed class :
+  ---
+   - all sub classes are knownn early 
+     so no required of else in when{}
+
+-> Kotlin have lot more expression (in between functional & procedural tradition)
+
+- when expression in kotlin = patternn matching python
+
+- inline func :
+  ------
+   - can access eenclosing parent scope variable
+
+- threads vs coroutine : 
+  ----
+   cost :- cheaper than thread
+
+- @Volatile :
+  -----
+   -> makes the obj visible instantly to all other threads
+   -> allow only 1 thread to accesss the property at a time.
+
+- synchronied(){}  blocks allow you to access code one at a time among multiple
+                   thread attempts
+

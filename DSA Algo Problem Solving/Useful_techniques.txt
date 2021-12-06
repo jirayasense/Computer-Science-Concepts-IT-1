@@ -6,7 +6,16 @@ TIP -> Always first think for bruteforce approach
 
 3) 2 Pointers (Ramesh-Suresh)  (alike Quick Sort)
 
-4) Fast & Pointer to find the middle index of List
+4) Fast & Slow Pointer to find the middle index of List
+
+5) Top Down Memomization
+
+6) Bottom Up Memoization (DP)
+
+7) sliding Window
+
+8) Bucket Sort (for Counter Kinda Thing When size is bounded)
+   Heap sort   (for quick add & delete)
 
 
 => When you need to find something potential ans in a range (i.e start & stop)

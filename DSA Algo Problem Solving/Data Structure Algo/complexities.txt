@@ -1,0 +1,24 @@
+* Constant time Complexity 
+
+2) Logarithmic Complexity : 
+     - Growing very slowly
+
+     Eg Divide & Conquer
+
+3) Linear Growth
+
+4) Pseudo Linear Growth :
+    - n * lg(n)
+    - Eg Merge Sort, Quick Sort
+
+5) Quadratic Time :
+
+
+6) Exponential Growth :
+     - extremely dangerous
+
+7) Factorial
+    - faster than exponential
+
+8) pow(n, n) 
+    - worse of all

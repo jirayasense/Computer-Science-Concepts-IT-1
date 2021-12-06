@@ -1,0 +1,8 @@
+* DI 
+  Its very bad practice to create/instantiate object inside Activity
+  because it makes object dependent on that activity 
+
+  DI dont change functionality of app but makes more cleaner & better architecture wise
+
+
+Kodein.lazy{} allows us to use application context`

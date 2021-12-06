@@ -1,0 +1,3 @@
+* Permutation & Combinations & Subsets :
+  ----------------
+   Subsets = Non Adjacent Collections

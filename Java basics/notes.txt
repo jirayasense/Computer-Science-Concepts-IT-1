@@ -78,6 +78,10 @@ getClass() -> to get class type of an object in java
   -------
    -> Java supports ascii subtraction i.e 'c' - 'a' = 2
 
+* String & Character :
+  --------
+   -> You can do character + String concatenation in Java (there will be implicit string convrsion)
+
 
 * String :
   ------

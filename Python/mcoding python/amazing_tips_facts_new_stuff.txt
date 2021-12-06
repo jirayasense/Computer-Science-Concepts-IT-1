@@ -1,3 +1,23 @@
-* ,= operator :
+*l, = operator :
   ----------
   
+
+* struct.pack() :
+  -----
+   -> to get actual representation of number in floating pt repr 
+
+   Note :- floating point number are represented in this way for 64 bits number :-
+          \
+           -> (-1)^sign * 2^ (e-1023) * 1.fraction   // fraction bit comprises of 
+            
+                sign     exponent     fraction
+                
+                1 bit    11 bits      52 bits
+
+           -> if repeated decimals the it will get rounded or truncated at some point
+              that is why .1 + .2 is not .3 (ie rounding error)
+
+   Struct.pack() rule :-
+      When exponent gets down to 0 -> You drop 1 at the begining of fraction
+       \
+        this allows to few more power of 2 to closer to 0

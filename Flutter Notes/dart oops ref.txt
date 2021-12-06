@@ -5,11 +5,13 @@
  https://www.programmersought.com/article/75333446596/
 
 
-* Upcast
+* Upcast  (Implicit Casts)
   -----
    -> Implicit Widening 
 
       https://stackoverflow.com/questions/20859702/dart-typecasting-error/20859856
+
+   -> You can turnn off implicit-casts in dart by mentioning them in pubspec.yaml
 
 
 * generics & Constructor :
