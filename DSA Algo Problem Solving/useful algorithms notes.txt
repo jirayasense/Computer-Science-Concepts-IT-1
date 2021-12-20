@@ -47,3 +47,9 @@ list of alog:- https://github.com/xizhengszhang/Leetcode_company_frequency
    1) Recursive DFS 
    2) Iterative DFS 
    3) BFS
+
+* Merge sort & Linked List :
+  -------
+   Merge Sort suits well with the linked List
+
+   slow & fast pointer

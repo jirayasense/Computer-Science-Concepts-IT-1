@@ -20,6 +20,7 @@ Binary Search :
    Kth missing element   (https://leetcode.com/problems/kth-missing-positive-number/)
 
 -** Sliding Window Maximum (Deque) (https://leetcode.com/problems/sliding-window-maximum/)
+-** Sub Array Sum Equals K (HashMap Imp) (https://leetcode.com/problems/subarray-sum-equals-k/)
 
 
 Sorting  :
@@ -41,3 +42,18 @@ Tree :
    Unique Permutation (DFS|Backtrack) (https://leetcode.com/problems/permutations-ii/)
 
    Longest Path between 2 nodes (Bottom Up | DFS) (https://leetcode.com/problems/diameter-of-binary-tree/)
+
+   Stack |
+   Inorder Traversal BST (https://leetcode.com/problems/kth-smallest-element-in-a-bst/)
+   PreOrder Traversal    (https://leetcode.com/problems/merge-two-binary-trees/)
+
+   PreOrder Mimp (https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)
+   
+   Subsets ((https://leetcode.com/problems/subsets-i/))
+   Subsets With Duplicates (https://leetcode.com/problems/subsets-ii/)
+
+
+* Sliding Window :
+    
+   **
+    (Max Substring Window) (https://leetcode.com/problems/minimum-window-substring/)

@@ -22,3 +22,10 @@
 
 8) pow(n, n) 
     - worse of all
+
+_________
+
+* pow() & log() are used in correspondence to each other 
+   \
+    pow can be derived using log() in Logarithmic time
+    pow & log are inverse of each other in the sense

@@ -11,6 +11,8 @@
 
 * fetching a range & list or array is sorted :- then use -> bisect module
 
+* To get the info regarding any function call in python you can usen :- cprofile.run 
+
 --------
 
 => 0 & -0 are same object ie integer 0 & -0 are same 

@@ -1,3 +1,9 @@
 * Permutation & Combinations & Subsets :
   ----------------
    Subsets = Non Adjacent Collections
+
+
+* DP & DFS :
+  ------
+   DP = Bottom Up 
+   Memoized Recurrssion

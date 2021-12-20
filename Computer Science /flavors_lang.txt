@@ -58,6 +58,14 @@ NOTE ->
    -> weakreference
    -> free list  (for tuple canonicalization)
    -> Window vs Iterable vs Iterator
+   -> GIL | MultiProcessing | MultiThreading
+   -> Multiple assignments ( Chained Assignments )
+   -> Tuple assignments
+   -> Cyclic Reference (Tricky Assignmennt)
+       \
+        Ellipsis operator
+
+   -> Chaining vs merging (python dictionary)
 
 
   

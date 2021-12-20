@@ -8,4 +8,13 @@
   ---------
 
 
-   
+* level Order traversal (Bfs) :
+  ------------
+   -> BFS goes in congruence with Queue
+   -> So iteration is preferred over Recurrsion for Level order Traversal (BFS)
+
+
+* Column Order traversal (DFS) :
+  ---------
+   -> DFS goes in congruence with Stack
+   -> & so Recursion is preferred for DFS traversaal

@@ -76,3 +76,52 @@ API :- base URL + Path + Query
    -> Resource util class 
     \
      Success, Loading, Error
+
+  All in all there are 2 wrapper classes till now :-
+    1) Response :- used to wrap response 
+    2) Resource :- used to emit state based on response
+
+
+* LiveData :
+  -------
+   = observable (Mobx) in flutter
+   -> Whenever you observe the LiveData you need to provide the LifeCycleOwner
+
+
+   To observe you need Observer & Observer is a lambdaa function
+
+   MutableLiveData :
+   ----
+    \
+     postValue()
+
+
+6) Fragment or Activity Class :
+  ------
+   -> will consume the view model & adapter (for Recycler View)
+
+
+* Safeargs :
+  ----
+   - allow us to pass parameters during transition from 1 Fragment to another fragment
+   - Put your arguments in bundle
+
+* Serializable :-
+  ---
+   -> You need to make your custom class Serializable inorder to pass it in 
+      Safeargs
+
+
+REMEMBER :
+-----
+ => Fragment will be resetted when device rotated but View Model will not get destroy.
+
+* ItemTouchHelper & RecyclerView :
+  ---------
+   we can add/attach ItemTouchHelper callback to RecyclerView items
+
+
+* Internet Checking :
+  -----------
+   -> need to use Application Context 
+   - inorder to use Application Context register it in manifest file   

@@ -96,3 +96,25 @@ Do Not Violate Open-Closed Principle -> modify existing code much...
 
      Why common interface ?? -> help to inject diff strategy (algo) at run time.
 
+
+* Facade :
+  -------
+   - Whenever you want to provide something on top of something !!
+
+   -> Common Interface class that provides functionalities for SubSystem Classes 
+      in a Simplified manner
+
+      As a result, the number of dependencies and references between client and subsystems 
+      is reduced (the weak coupling is promoted between them),
+
+   -> reduce coupling between multiple sub-systems by requiring them communicate 
+      only through facades.
+
+   -> Facade kinda help to work over Dependency Inversion principle of SOLID
+
+   -> most used features of the API can be provided via Facade
+
+   - To Combine different API's into single interface/API serving a commonn purpose
+     Single action via different API
+
+   -> Eg Agora media options (instead operating Video + Audio manually)

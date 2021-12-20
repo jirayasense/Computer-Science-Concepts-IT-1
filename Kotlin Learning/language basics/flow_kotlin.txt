@@ -1,0 +1,13 @@
+* Flow = Stream in Dart 
+
+* Flow Operators :
+  -----------
+   - filter, map, onEach,
+     
+     count, reduce, fold
+
+     flapMapMerge, flatMapConcat, flatMap
+
+     buffer, conflate, latest
+
+NOTE :- When collect is done with one val then only the flow will send next one

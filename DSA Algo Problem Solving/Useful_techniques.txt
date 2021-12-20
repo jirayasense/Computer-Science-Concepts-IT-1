@@ -17,6 +17,8 @@ TIP -> Always first think for bruteforce approach
 8) Bucket Sort (for Counter Kinda Thing When size is bounded)
    Heap sort   (for quick add & delete)
 
+9) slow & fast pointer (esp used with the linked list)
+
 
 => When you need to find something potential ans in a range (i.e start & stop)
     - binary search can be useful

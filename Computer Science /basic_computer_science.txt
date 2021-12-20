@@ -54,6 +54,7 @@
 
 * Reference Equality vs Value Equality :
   -------------
+   comparision at actual Heap or at stack
 
 
 * StringBuilder or ArrayList or any dynamically sized List :

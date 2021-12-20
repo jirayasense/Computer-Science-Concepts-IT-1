@@ -14,9 +14,10 @@ Logic :
 Packages :  (Concepts)
   Johannes Mike
   Syntac Ops 
+
+apps :
+  Zero to Unicorn
   
-
-
 DSA : 
   William Fiset 
   CS Dojo

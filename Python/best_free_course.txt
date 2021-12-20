@@ -65,7 +65,7 @@ For Emails :
 
    Python WTF : https://github.com/satwikkansal/wtfpython#-first-things-first-
 
-
+   Python Deep Dive : https://github.com/fbaptiste/python-deepdive
 ----------------
  Youtube
 

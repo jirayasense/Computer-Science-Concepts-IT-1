@@ -67,6 +67,8 @@ Imp latest concepts :-
   
   - Immutable Objects Advantages ?? 
 
+  - SParse Calculations vs Dense Calculations !!
+
 
 
 -----
@@ -97,6 +99,8 @@ Functional Programming :
  - Free Function (Global Function)
 
  - Free List (Python)
+
+ - Cyclic Reference (Tricky Assignment) (Python)
 
 
 * Package - Top Level Directory

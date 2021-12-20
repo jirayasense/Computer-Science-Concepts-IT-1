@@ -1,0 +1,8 @@
+* GreenDAO (ORM SqlIte)  // DB-ORM 
+* Fresco               
+* Hilt (Dagger)    // DI 
+* RxJava / Kotlin  // Reactive 
+* Coroutines       // Parallelism
+* Compose          // Declarative UI 
+* MVVM             // Aarchitecture
+* Flows            // streaming

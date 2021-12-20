@@ -57,7 +57,7 @@ getClass() -> to get class type of an object in java
 * Primitives & Non-Primitives :
   ---------------
    -> Primitives are store on Stack 
-   -> Non-Primitives are stored on Heap.
+   -> Non-Primitives are stored on Heap. (Reference Types most probably)
 
    Primitives :- Something that can't be broken down 
 
@@ -115,7 +115,6 @@ getClass() -> to get class type of an object in java
   Amazing :-
    =====
     -> If you want to add character in your string you are having complexity of n or n-squared.
-
        As each time new obje is going to be created in memory
 
   Mutable String :

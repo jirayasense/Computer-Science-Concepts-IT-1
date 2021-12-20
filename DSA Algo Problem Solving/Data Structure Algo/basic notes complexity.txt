@@ -13,3 +13,14 @@
    -> when you go for Permutation & Combinations = BruteForce = Worst 
 
       Recursion + DP = Good + Worst = Avg = Greedy(Eager)
+
+
+* DP :
+  ---
+   -> With the help of DP, we can reduce exponential complexity m^n to polynomila ie m*n 
+       \
+        m^n -> m*n
+
+* Memoized Recurssion :
+  ------
+   -> DFS & BFS are inherently used during Memoized Recurrsion

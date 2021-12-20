@@ -80,7 +80,7 @@ theory :-
       - SVD 
       
   
-  Normalized Nerd 
+  Normalized Nerd  (** iMP)
   Weights & Biases
   Inntutive Machine Learning
 

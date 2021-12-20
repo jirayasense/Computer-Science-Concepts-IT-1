@@ -1,0 +1,5 @@
+* Stack vs Heap ;
+  -----
+   in Python 
+     to compare reference equality :- `is`
+    & to compare value equality   :- `==`

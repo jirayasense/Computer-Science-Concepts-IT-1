@@ -5,6 +5,8 @@ https://medium.com/backticks-tildes/the-s-o-l-i-d-principles-in-pictures-b34ce2f
 https://www.educative.io/blog/solid-principles-oop-c-sharp
 https://www.freecodecamp.org/news/solid-principles-explained-in-plain-english/
 
+https://medium.com/tunaiku-tech/s-o-l-i-d-principles-simplified-explanation-example-f7268ca75758
+
 https://blog.joshua-greenwood.com/the-solid-principles-and-kotlin/
 https://dev.to/elianmortega/vol-2-solid-rules-in-dart-2e6m
 
@@ -23,7 +25,6 @@ https://dev.to/elianmortega/vol-2-solid-rules-in-dart-2e6m
      it SHOULD DEPEND on an abstraction of that class "
 
     -> Data (low-level) & Business logic(High-level) both must depends on abstractions of model 
-       
        [Loose Coupling]
 
 

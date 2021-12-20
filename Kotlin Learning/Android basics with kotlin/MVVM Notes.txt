@@ -28,7 +28,7 @@ https://resocoder.com/2018/09/07/mvvm-on-android-crash-course-kotlin-android-arc
     Where in MVC Controller have direct reference to View 
 
  
- * LiveData :
+ * LiveData :  (Same as Mobx's Observable in Flutter)
    -----
     - perfect in sync with life cycles
     - child exposes data via some library such as `LiveData` or `RxDart`

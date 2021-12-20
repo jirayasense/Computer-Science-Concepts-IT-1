@@ -250,15 +250,12 @@ siwtch() stmt :
 * Synchronous & Asynchronous
   ------------------------
 
-  Terms :- {Events, Event Loop, Event handler, Single Thread, Helper Thread (GC), Isolate, Isolate VM (internal memeory)}
-
+  Terms :- {Events, Event Loop, Event handler, Single Thread (Mutator), Helper Thread (GC), Isolate, Isolate VM (internal memeory)}
 
   * Isolate : 
     ------
      -> a.k.a factory of dart 
-
      -> place where all code of dart is managed & run
-
 
      Main Isolate :
      ---------
@@ -290,12 +287,11 @@ siwtch() stmt :
    * Helper Thread :
      -----------
       -> A thread that is specialize in garbage collections. 
-      - this thread do GC for events that has been processed by Event Handler
+      -> this thread do GC for events that has been processed by Event Handler
 
 
    NOTE :- Dart is Single Threaded to Event Processing i.e all events & instruction pass by single thread.
            But operations regarding isolates are being handled by other internal threads
-
 
    => By Default -> 1 isolate is spawned (i.e main) with single thread of execution.
 
@@ -304,7 +300,6 @@ siwtch() stmt :
      ---------
       -> Can spawned new Isolate to calculate heavy task other than Main Isolate
       -> But Each isolate has its own dedicated memory, So it can be quite expensive.
-
    
    * Isolate Groups :
      ----------
@@ -364,7 +359,7 @@ siwtch() stmt :
    -> 
       Future.value() will be immediate than Future() constructor
            \
-            .value() will place task on micortask queue
+            .value() will place task on microtask queue
 
       Future.sync() also send its task on microtask queue
 
