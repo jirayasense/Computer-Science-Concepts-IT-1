@@ -45,4 +45,11 @@
 
 * Linked List - Middle :- using slow & fast pointer
 
+* backtracking Problem  :- You commonly undo or reverse your decision
 
+* Range Queries :
+  --------
+   -> If you want to find the sum of sub-array 
+      you can consider finding the prefix-sum first
+
+      Then you can find any sub-array sum in constant time

@@ -12,3 +12,9 @@
  ---------
   -> You can store auth tokens for your app inside Block STore 
      It can be use ful whilst auto sign in in D2D transfer
+
+
+* SavedStateHandler :
+  -------
+   -> To get the navigation argument passed whilst navigation
+   -> to restore state of ViewModel

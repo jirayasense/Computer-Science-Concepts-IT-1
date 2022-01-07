@@ -85,6 +85,9 @@ Articles :- analytics vidhya
 
 18) heapq lets you fetch top t of n items in O(t+n) time
 
+19) To calc time :- timeit 
+            space :- o.__sizeof__()
+
 --------------
 
 Python builtin frequently used 

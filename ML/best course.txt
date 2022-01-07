@@ -73,6 +73,8 @@ theory :-
   Serrano Academy
   Khann Academy
 
+  Jeffrey Chasnov (Vector Calculus)
+
   Steve Brunton (ML Math Topics)
      \
       - data driven science & Engineering

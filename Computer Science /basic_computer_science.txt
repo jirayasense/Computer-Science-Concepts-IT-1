@@ -18,6 +18,8 @@
 
   - Lambdas (Closure)
 
+  - Canonical Form / Canonical Representation
+
 
 * Heap & Stack Importance :  (memory Management)
   -----------
@@ -28,6 +30,15 @@
        reference is stored on stack in a variable (as Stack is tightly bound with CPU) 
 
 * Memory Management :-
+  -------------
+   - diff lang has diff mechanisms for memory management 
+     
+     Most Compiled language (JIT compilers) :- prefer Garbage Collections mechanisms 
+     Python (Interpreter ) :- has concepts of reference-counting primararily for Memory Managemennt
+
+     Python :- is good for Single Threaded (& its give good performance for same)
+
+
 * Dynamic Memeory Allocation (DMA)
   ------
    -> At run time
@@ -83,6 +94,10 @@
 * Float & Computer :
   ----------
    -> Computer don't represent floating point number in accurate way
+
+* Sentinel Value :
+  ---------
+   -> a special value used to terminate a loop when reading data
 
 -----------------------------
 

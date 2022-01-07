@@ -14,6 +14,12 @@ TIP - Unicode is the standard for mapping characters to numbers.
 
     - Enum Classes used when state machine is required for impl.
 
+=> To pass a named function as an argument to another function, you use the :: operator.
+
+* Wrapper :
+  --
+   There are wrappers available for all primitives and the Object base class.
+
 _____________________________________________________________________
 
 * String templates :
@@ -186,6 +192,14 @@ _____________________________________________________________________
 
    -> object are generally used to create namespaces.
     
+* Object declarations :
+  --------
+   -> allow you to create Singletons inside Kotlins
+   -> it has always an object name following object keyword
+
+   - an object declaration is not an expression
+
+
 * class-properties :
   -----
    => Properties are variables and constants that are part of a named type.
@@ -197,8 +211,16 @@ _____________________________________________________________________
 
 * Companions :
   ------
+   -> object declaration inside class (with companion keyword)
+
    -> The companion object holds properties that are universal to all instances of a particular class
-   -> static block in kotlin
+   -> static block in kotlin (alike but not actual static)
+
+   -> simulate static keyword behaviour in kotlin 
+
+   -> Note that even though the members of companion objects look like static members in other languages, 
+      at runtime those are still instance members of real objects, and can, for example, implement interfaces
+
 
 * namespace : (& Companions)
   --------
@@ -292,3 +314,37 @@ gist -> `Type erasure` means that, within a class or interface that takes a gene
   -------
    <T>
    -> cannot make any inference.
+
+_______________________
+
+- FUNCTIONAL PROGRAMMING 
+
+* Higer-Order Func :
+  ---
+   - Func that recieves other func as param or returns other func are known as higher-order func
+
+* Lambda :
+  ------
+  - A lambda expression is always defined in curly brackets
+  - The last expression in a lambda body determines the return type and the value that is returned 
+
+  - it :
+    --
+    If a lambda has only one parameter, you don’t need to specify its name. 
+    You can access it by using it as a name
+
+  - In Kotlin, if a lambda is the last parameter of a function, 
+    it can be placed outside of the parentheses of a higher-order function.
+
+  - In Kotlin Lambda is internally (in java) is represented as a Class
+
+* Closures :
+  ------
+   - Lambas (as well as local functions) act as closures, 
+     which means that they can access and modify variables defined outside of their own scope
+
+* Extension Func :
+  -------
+   - Add new functionalities without Inheritance
+     - as multiple Inheritance is not allowed 
+     - or class may be not extendable (ie Sealed Class or final Class)

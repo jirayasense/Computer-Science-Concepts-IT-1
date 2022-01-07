@@ -1,6 +1,13 @@
 
 1) Maximum SubArray Sum - Kadane's Algorithm
    Prime Less than  :- Sieve of Erastothenisis
+   Majority element :- Boyer-Moore Algorithm 
+
+
+logics :
+  
+  group Anagrams  [https://leetcode.com/problems/group-anagrams/]
+
 
 Linear Search :
    Fair Candy Swap https://leetcode.com/problems/fair-candy-swap/
@@ -28,14 +35,22 @@ Sorting  :
    n largest elem - (Heap Sort) | (https://leetcode.com/problems/maximum-product-of-three-numbers/submissions/)
    kth largest element - [Heap ds] (https://leetcode.com/problems/kth-largest-element-in-an-array/)
 
-   top kth frequent elements - [Bucket Sort alike Logic] (https://leetcode.com/problems/top-k-frequent-elements/)
+   [Bucket Sort alike Logic]
+   top kth frequent elements -  (https://leetcode.com/problems/top-k-frequent-elements/)
 
-Recursion :
+   [Quick Sort] | [Bucket Sort] (https://leetcode.com/problems/sort-colors/)
+   [Quick Selct]  (https://leetcode.com/problems/move-zeroes/)
+
+Recursion : 
+  [Backtracking + Recursion]
+  Partition to k equals Sum  (https://leetcode.com/problems/partition-to-k-equal-sum-subsets/)
+  
 Tree :
    
    BFS (https://leetcode.com/problems/rotting-oranges/)
    DFS (https://leetcode.com/problems/path-sum/)
    DFS-BFS 
+-** BFS (https://leetcode.com/problems/find-bottom-left-tree-value/) 
 
    Cartesian Product (https://leetcode.com/problems/letter-combinations-of-a-phone-number/)
 
@@ -52,8 +67,20 @@ Tree :
    Subsets ((https://leetcode.com/problems/subsets-i/))
    Subsets With Duplicates (https://leetcode.com/problems/subsets-ii/)
 
+Graphs 
+   
+ -** Topological Sort - Alien Dict (https://leetcode.ca/all/269.html)
+
 
 * Sliding Window :
-    
-   **
-    (Max Substring Window) (https://leetcode.com/problems/minimum-window-substring/)
+
+ -** (Max Substring Window) (https://leetcode.com/problems/minimum-window-substring/)
+ -** (Anagram in Substring) (https://leetcode.com/problems/find-all-anagrams-in-a-string/)
+
+
+* DP :
+  
+  longest increasing SubSequence (https://leetcode.com/problems/longest-increasing-subsequence/)
+  no. Longest Incre Subseq  (https://leetcode.com/problems/number-of-longest-increasing-subsequence/)
+
+  longest Increasing Path in Matrix (https://leetcode.com/problems/longest-increasing-path-in-a-matrix/)

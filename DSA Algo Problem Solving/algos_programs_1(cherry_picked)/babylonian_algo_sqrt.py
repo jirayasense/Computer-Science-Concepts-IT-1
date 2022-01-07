@@ -72,10 +72,10 @@ def isqrt(n):
         m = s + (e-s) // 2
         q = n // m
         if m == q:
-            # d divides n into exact d parts, i.e found exact square root
+            # m divides n into exact d parts, i.e found exact square root
             return m
         elif q > m:
-            # d divides n into more than d parts, i.e more parts than expected so increase the divider
+            # m divides n into more than m parts, i.e more parts than expected so increase the divider
             s = m+1
         else:
             # d divides n into less than d parts i.e less parts than expected so decrease the divider

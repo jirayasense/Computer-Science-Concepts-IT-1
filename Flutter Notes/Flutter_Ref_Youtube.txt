@@ -17,6 +17,7 @@ Packages :  (Concepts)
 
 apps :
   Zero to Unicorn
+  Coding Cafe    [Ubber Clone]
   
 DSA : 
   William Fiset 

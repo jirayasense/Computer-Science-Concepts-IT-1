@@ -6,3 +6,4 @@
 * Compose          // Declarative UI 
 * MVVM             // Aarchitecture
 * Flows            // streaming
+* Junit | Expresso

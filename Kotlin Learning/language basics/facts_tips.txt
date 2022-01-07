@@ -77,6 +77,10 @@ MIMP ->>>
       To solve above use : Generics With Interface
 
 
+* reference of Variable :
+  -----
+   To gain & pass the reference of Variable in kotlin use `::` operator before variable-identifier
+
 ===================================
 
 * Some Kotlin Facts from designer of Kotlin :
@@ -115,4 +119,5 @@ MIMP ->>>
 
 - synchronied(){}  blocks allow you to access code one at a time among multiple
                    thread attempts
+
 

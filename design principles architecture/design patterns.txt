@@ -22,9 +22,13 @@ Do Not Violate Open-Closed Principle -> modify existing code much...
 
                             JSON-POJO transformation 
 
+  Eg Ody2 <-> api-specific  json/Xml response
+
 * Template :
   ------
    -> behavioural dp
+
+   - resembles kinda Interface
 
    Steps of an algorithms are fixed & structured 
    but 
@@ -90,6 +94,8 @@ Do Not Violate Open-Closed Principle -> modify existing code much...
        \
         You should opt for Strategy Pattern.
 
+       list Utils or Num Utils
+
   Open-Closed Principle -> You can add new Strategy(new algo) without interrupting existing one.
   
   => (Extract functionality from start) & Define Common Interface to interact
@@ -99,6 +105,7 @@ Do Not Violate Open-Closed Principle -> modify existing code much...
 
 * Facade :
   -------
+   (Structural design patterns)
    - Whenever you want to provide something on top of something !!
 
    -> Common Interface class that provides functionalities for SubSystem Classes 
@@ -118,3 +125,44 @@ Do Not Violate Open-Closed Principle -> modify existing code much...
      Single action via different API
 
    -> Eg Agora media options (instead operating Video + Audio manually)
+
+
+* Iterator :
+  ------
+   (behaviour Design Pattern)
+
+  -> It allows you to access the elements sequentially beware of underlying DS
+
+  Collection interface :
+  _____
+    - It stores the underlying DS
+    - provides method to create iterator for such DS to iterate it sequentially
+
+  This abstraction of Collection & Iteration allows client to iterate over any Collection
+  in same way
+
+  Iterable :- creates iterator 
+   \
+    means Collection
+
+
+* Factory Methods :
+  -------
+   Creational Design Pattern 
+
+   Factory Method is also known as a Virtual Constructor
+
+   -> it enables compile-time flexibility via subclassing
+   
+   - This resolves the issue of creating objects directly within the class which uses them.
+   => By implementing the pattern, subclasses can be written to redefine the way an object is created.
+
+   - Concrete Creator SubClass 
+
+   - Via this way UI is not tightly bound to class specific implementation
+
+   -> Basically there are 2 innterfaces i.e 1) Creator Class 2) Product Which is being created
+
+   Singleton :
+   --
+    - can be implemented via caching the obj of factory methods

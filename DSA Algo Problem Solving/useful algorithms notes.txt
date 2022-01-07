@@ -1,12 +1,19 @@
-1) Kadane's algorithms
+1) Kadane's algorithms  ( lonngest sum substring )
 
 2) Decision Tree (Appraoch | For Dynamic Programming Problem Solving)
 
 3) KMP algo (Knuth Morris Pratt)
 
 4) Sliding Window for manipulaitng on big size array
+   Sliding Window & Anagrams
 
 5) quick Select (same as Quick Sort)
+
+6) bucket Sort (Top K frequent element)
+
+7) Boyer-Moore Voting algorithm (Majority element)
+
+8) Seive of Erastothenisis (Prime Number element)
 
 
 list of alog:- https://github.com/xizhengszhang/Leetcode_company_frequency
@@ -27,6 +34,23 @@ list of alog:- https://github.com/xizhengszhang/Leetcode_company_frequency
 
    LPS array building : O(2 * n)
 
+
+* Boyer-Moore (Majority Elemment)
+  ---------
+   - given that 1 element appears majority time in array ie (more than equal to n/2)
+
+   - Consider Story :- element having max count will sit on Crown 
+   
+   - Assume starting as majority element 
+      \
+    move forward & check if some other elements claim of majority then 
+    decrease the propensity of our assumption accordingly
+     ie when some other elements counter the current king - king's value & popularity decreases 
+
+    When there is no one sitting on crown (ie Current king value is 0), 
+    then next element (claiming for crown ie (wit atleast 1 count)) can take sit
+
+
 * Binary Search or Bisection Search :
   ----------
    -> rule : at each step ruleout space by half
@@ -41,6 +65,10 @@ list of alog:- https://github.com/xizhengszhang/Leetcode_company_frequency
 
   So when you use the DFS with Recursion you are already implementing the DFS using Stack
 
+* BFS & Queue : (Iterative Algo)
+  ----------
+   - BFS is preferred with Iteration
+   - deque
 
 * Tree Traversal Techniques:
   ------
@@ -51,5 +79,4 @@ list of alog:- https://github.com/xizhengszhang/Leetcode_company_frequency
 * Merge sort & Linked List :
   -------
    Merge Sort suits well with the linked List
-
    slow & fast pointer

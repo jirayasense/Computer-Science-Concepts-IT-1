@@ -36,13 +36,13 @@ NOTE ->
 * Python  
   -----
    -> Multiple assignment
-   -> Chained Comparisions
+   -> Chained Comparisions & Transitivity
    -> tuple (tuple unpacking)
    -> dunder (magic) methods  &  facade methods
    -> generator & context
    -> namespace, loader, executor
    -> garbage Collector & ref Counts (generational GC)
-   -> *args, **kwargs
+   -> *args, **kwargs, (SPLAT operator)
       arguments unpacking & packing
    -> Monkey Patching & Dynamic Monkey Patching
    -> GIL (global interpreter lock) 
@@ -55,7 +55,7 @@ NOTE ->
 
    -> Sloted Objects  & non-slotted objects 
    -> __slots__ vs __dict__ 
-   -> weakreference
+   -> weakreference  (weakref)
    -> free list  (for tuple canonicalization)
    -> Window vs Iterable vs Iterator
    -> GIL | MultiProcessing | MultiThreading
@@ -66,6 +66,19 @@ NOTE ->
         Ellipsis operator
 
    -> Chaining vs merging (python dictionary)
-
+   -> ShortHand | Inplace modification (mutable vs immutable)
 
   
+
+
+* Memory management :
+  ------------
+   -> Python (Interpreted) :- Ref-Counting + GIL 
+      Java, Dart, (JIT Compiler) :- Garbage Collections 
+
+
+* Enum :
+  ----
+   in Kotlin, Java, :- clas types 
+      C#            :- Value types 
+

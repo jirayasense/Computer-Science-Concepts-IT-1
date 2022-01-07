@@ -70,6 +70,13 @@
    -> display something at a single time.
    -> Used as Container for Fragment
 
+   -> Layout that has only 1 child ata a time (ie alike Container)
+
+* Nav-Graph :
+  -----
+   - The purpose of Nav-Graph is to define the transition between our fragments 
+     i.e we can define from which fragment we can navigate to which fragment !
+
   
 * Swipable Views :
   -------

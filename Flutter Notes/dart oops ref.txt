@@ -13,6 +13,10 @@
 
    -> You can turnn off implicit-casts in dart by mentioning them in pubspec.yaml
 
+   => TypeCastinng (Moulding or Upcasting) do not change the underlying types & do not create new instance
+        \
+         Instead it just restrict the field access on current object 
+
 
 * generics & Constructor :
   -------------
@@ -47,3 +51,32 @@
    -> Initializer List can be used for list for enclosing class only  
       \
        Why ? because `this` refer to enclosing class only so.
+
+
+_______________
+
+* Abstraction :
+  ------
+   (Ideas & Functionalities Only)
+
+   - Declarative Way to Program
+
+   - A way to deal with the ideas 
+      (ie pondering the high level functionalities without knowing the Low-Level Impl)
+
+   - In programming this is done by providing the interface ie APIs 
+
+  WHY ABSTRACTION ?
+    - for impl-agnostic
+    -> When you want to Decouple the impl from the application i.e impl-agnostic 
+
+    Decoupling such way is done for 
+    
+    - Long term maintainence
+    - Easier to Understand  
+    - Easier to test  (Mock Versions | Fake Data Versions)
+    - Implementation can be Swapped out 
+    - Speeds up the architecting the Development (Services & Functionailites)
+    - fake Data is king & abstraction allow us to use Fake Data efficiently
+
+    Eg You can start development even if API is not completed

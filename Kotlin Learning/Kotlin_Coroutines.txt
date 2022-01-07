@@ -17,7 +17,7 @@
       tell compiler that this fun will run inside Coroutine or another suspend fun 
 
        withContext() : 
-           requires to tell that on which thread the code shpuld run on 
+           requires to tell that on which thread the code should run on 
 
 
       3 Dispacthers : 
@@ -42,7 +42,6 @@
 * Coroutine Scope & Context :
   -------------------
    -> Coroutine requires some scope to run in.
-      
       So that scope has idea & keep track of all coroutines running under it.
 
    Coroutine Context :
@@ -85,7 +84,7 @@
       -> It is responsible for cancellation of Coroutine 
       -> Parent-Child relation
 
-      -> It is returned from `launch{}` method call on `scope`
+      -> It is returned from `launch{}` method called on `scope`
 
       Own CoroutineScope :
        ---

@@ -76,4 +76,12 @@ Tips :
 
    
    2) Dual Pivot Quick Sort :
-    -------
+     -------
+
+
+
+* Topological Sort :
+  --------
+   DAG :- Directed Acyclic Graph
+
+   => PostOrder DFS = Topological Sort :- Gives you Reversed sorted string/result

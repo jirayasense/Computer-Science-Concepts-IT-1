@@ -20,9 +20,12 @@
 
 * Singleton Objects :- object
 
+* Factory Pattern
+
 * Repository Pattern
 
 * Dependency Injection / Inversion
+  Service Locator 
 
 
 --------

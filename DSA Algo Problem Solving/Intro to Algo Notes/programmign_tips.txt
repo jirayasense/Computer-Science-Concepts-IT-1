@@ -1,0 +1,2 @@
+* to cacl time complexity :- timeit 
+     calc space  :- o.__sizeof__()

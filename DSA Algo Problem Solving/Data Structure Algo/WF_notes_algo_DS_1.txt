@@ -18,3 +18,10 @@
   ---------
    -> DFS goes in congruence with Stack
    -> & so Recursion is preferred for DFS traversaal
+
+
+* Fenwick Tree (Range Query) :
+  ---------
+   -> Better for range sum 
+
+   -> You cant update the fenwick tree structure 

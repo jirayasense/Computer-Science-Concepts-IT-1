@@ -61,6 +61,8 @@
 
 * Initializer List   ( eg dart )
 
+* Struct vs Class vs Records ??
+
 
 -----
 Imp latest concepts :-
@@ -69,7 +71,7 @@ Imp latest concepts :-
 
   - SParse Calculations vs Dense Calculations !!
 
-
+  - Decorator | Annotations : (useful in gennerating the Code)
 
 -----
 
@@ -102,25 +104,24 @@ Functional Programming :
 
  - Cyclic Reference (Tricky Assignment) (Python)
 
+ - ShortHand | Inplace modification (mutable vs immutable)
 
 * Package - Top Level Directory
   Module -> a module is a set of Kotlin files compiled together
 
-
   namespace, mappings, logical hierarchy, physical hierarchy  (c#, python)
-
 
 * Memory Management (Python Heap, Stack)
   Reference Counter
-
 
 * Sound Safety & Typed System :
   -----------
    -> No type conversion i.e casting is missing
    -> also implicit conversion is missing
-   ->
 
-
+* referential transparency : (Functional Programming)
+  ---------
+   -> Pure func :- for same inp func will provide same output
  
 OOPS :-
 ----

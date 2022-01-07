@@ -6,3 +6,14 @@
 
 
 Kodein.lazy{} allows us to use application context`
+
+
+Dagger vs Kode-in :
+  -----
+  Dagger - is a Dependecy Injection 
+  Kode-in - service locator 
+
+  DI :- happens at compile time 
+  Service locator :- happens at run-time
+
+  So Dagger is more performant thann Kode-in

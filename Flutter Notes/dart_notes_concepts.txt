@@ -398,3 +398,8 @@ siwtch() stmt :
    Stream Controller :- authority that is adding item to stream 
    Stream Subscription ;- listener that is waiting for an item on stream 
 
+
+* TearOffs :
+  ------
+   -> When you provide the function as a variable to something 
+      without unnecessary addressing of the lambda is known as TearOffs

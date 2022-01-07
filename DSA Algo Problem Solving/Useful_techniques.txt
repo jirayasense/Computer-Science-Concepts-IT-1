@@ -12,12 +12,17 @@ TIP -> Always first think for bruteforce approach
 
 6) Bottom Up Memoization (DP)
 
-7) sliding Window
+7) sliding Window (esp for Anagrams)
 
 8) Bucket Sort (for Counter Kinda Thing When size is bounded)
    Heap sort   (for quick add & delete)
 
 9) slow & fast pointer (esp used with the linked list)
+
+10) BFS & Queue (Iteration)
+    DFS & Stack (Recursion)
+
+11) Boyer-Moore algorithm (Majority Element)
 
 
 => When you need to find something potential ans in a range (i.e start & stop)
