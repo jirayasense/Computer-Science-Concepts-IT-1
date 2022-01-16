@@ -166,3 +166,16 @@ Do Not Violate Open-Closed Principle -> modify existing code much...
    Singleton :
    --
     - can be implemented via caching the obj of factory methods
+
+
+* Abstract Factory :
+  ---------
+   Provide an interface for creaating families of related or dependent objects without specifying their 
+   Concrete Classes 
+
+   the Abstract Factory consists of several factory methods 
+   where each one of them creates only one specific object.
+
+   Provides Compile-Time flexibility & Run-Time flexibility
+
+   this pattern removes the direct binding of application-specific classes into the code.

@@ -140,8 +140,35 @@
                        to tell observe in which state LifeCycleService is in !
 
    Communicate to Service :- send inntent to service from either activity or fragment
-
-
    Bound Service :- Service class acts like Server & Client can bound to it (alike Socket)
 
   => The observe func of LiveData obj needs LifeCycle Owner
+
+  TrackigService :- will get intent so that it can track & perform necessary commands 
+
+Flow :
+---
+ MainActivity -> Intent -> Trackingservice
+ TrackignService -> PendingIntent -> MainActivity
+
+* Foreground Servicec:
+  ------
+   Notification Channel :
+   ----
+
+   Note :- Notification Service is System Service (from Android Framework)
+
+* Pending Intent :
+  -------
+   -> useful when we want to implement Deep Link kinda things
+   -> intent that can be launch later & not instantly
+
+Note :- When our MainActivity launched with new Intent then either of following 2 methods 
+        are called !
+         1) onCreate()
+         2) onNewIntent()
+
+
+* Global Action in NavGraph :
+  ------- 
+   -> To directly navigate to particular fragment Globally via navController

@@ -67,3 +67,14 @@ Failed to execute git {
 
 ssh validation failed 
 https://www.youtube.com/watch?v=IN89bys9uc8
+
+
+----------------
+
+(James Murphy mCoding Youtube)
+
+* Pre-Commmits :
+  -----
+    
+    pre-commit InstallIn
+ 

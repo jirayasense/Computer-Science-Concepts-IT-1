@@ -1,7 +1,9 @@
 MVVM
 VIPER
 
-MVC
+MVC (Model View Architecture  )
+MVI ()
+MVU (Model View Update)
 
 
 VIPER : 

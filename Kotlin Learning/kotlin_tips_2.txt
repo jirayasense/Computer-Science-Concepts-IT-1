@@ -151,3 +151,5 @@ References :
 - groupie -> RecyclerView  // (all of notifying & extra stuff done by groupie library)
 
 - Accompanist -> System UI Controller
+
+- compose-destinations   // simple & better Navigator in Jetpack Compose

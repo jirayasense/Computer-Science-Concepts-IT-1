@@ -9,3 +9,8 @@
 9) concat with .join() instead of + every time
 10) merge dictionary with ** syntax
 11) Simplify if statement for multiple checks
+
+
+* bool or not :
+  ------
+   use not not x instead of bool(x)

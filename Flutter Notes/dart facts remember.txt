@@ -1,0 +1,14 @@
+* dynamic vs List<dynamic> :
+  -------
+   You can assign dynamic to any type in dart  (at runtime there can be err)
+
+   You cannnot assign List<dynamic> to List<T> // It will give compile time err
+
+
+* InternalLinkedHashMap vs Map 
+  ------
+   https://stackoverflow.com/questions/57845333/dart-how-internallinkedhashmapstring-dynamic-convert-to-mapstring-dynami
+
+   When you try to cast List<dynamic> as List<Map> it will work 
+   but 
+   it does not go true for InternalLinkedHashMap

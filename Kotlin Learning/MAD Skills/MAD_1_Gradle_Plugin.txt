@@ -28,3 +28,14 @@ Modern Android Dev
     3) Execution : gradle executes set of tasks needed for build
 
   Gradle DSL supports groovy or kotlin scripts for build file
+
+* Gradle :- Helps in build tools scripting 
+
+* Plugins & Tasks :
+  ----------
+   -> you can define your own plugins 
+       \
+        you can register tasks in that plugin 
+
+      then you can run that Plugins from Gradle File (ie Every time when build is triggered)
+

@@ -1,3 +1,7 @@
+* MVVM :
+  ----
+   is Opinionated Way to Structure your Android Project
+
 * COil :
   -- 
    - make sure to android:usesClearTextTraffic = "true" in <application> tag of manifest file

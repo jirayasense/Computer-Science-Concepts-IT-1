@@ -98,3 +98,13 @@
      Such class are known as State Holder
 
      State Holder also often resides & live the life-cycle of composable function
+
+
+* Composition Local :
+  -----
+   = same as Provider in Flutter
+   = accessing the Parent property via context in Flutter (same concept)
+
+   compositionLocalOf{}
+   CompositionLocalProvider()
+   LocalContext 

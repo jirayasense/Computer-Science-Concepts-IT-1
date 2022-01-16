@@ -27,3 +27,8 @@ TIP -> Always first think for bruteforce approach
 
 => When you need to find something potential ans in a range (i.e start & stop)
     - binary search can be useful
+
+* 2 Pointers :
+  ------
+   - Hoare & Lamuto (for sorting)
+   - Grow & Shrink (Sliding Window)

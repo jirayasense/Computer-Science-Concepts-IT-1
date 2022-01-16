@@ -3,10 +3,17 @@
    Prime Less than  :- Sieve of Erastothenisis
    Majority element :- Boyer-Moore Algorithm 
 
+   2 Pointers Partition : Hoare & Lamuto
+   prefix Sum :- Fenwick Tree
+
 
 logics :
   
   group Anagrams  [https://leetcode.com/problems/group-anagrams/]
+
+2 Pointers | Partition 
+  
+  Hoare / Lamuto / remove elements (https://leetcode.com/problems/remove-element/)
 
 
 Linear Search :
@@ -26,9 +33,12 @@ Binary Search :
    Split Array Largest Sum (https://leetcode.com/problems/split-array-largest-sum/)
    Kth missing element   (https://leetcode.com/problems/kth-missing-positive-number/)
 
+   Max Remove Character (https://leetcode.com/problems/maximum-number-of-removable-characters/
+)
+
 -** Sliding Window Maximum (Deque) (https://leetcode.com/problems/sliding-window-maximum/)
 -** Sub Array Sum Equals K (HashMap Imp) (https://leetcode.com/problems/subarray-sum-equals-k/)
-
+-** min size sub array sum (Grow-Shrink Window) # https://leetcode.com/problems/minimum-size-subarray-sum/
 
 Sorting  :
    
@@ -44,6 +54,8 @@ Sorting  :
 Recursion : 
   [Backtracking + Recursion]
   Partition to k equals Sum  (https://leetcode.com/problems/partition-to-k-equal-sum-subsets/)
+
+  Combination SUM 2 (# https://leetcode.com/problems/combination-sum-ii/)
   
 Tree :
    

@@ -21,3 +21,30 @@
       When exponent gets down to 0 -> You drop 1 at the begining of fraction
        \
         this allows to few more power of 2 to closer to 0
+
+
+* bool vs not not :
+  -------
+   not not x is faster than bool(x)
+
+   because :- inorder to perform bool(x) we need to look for `bool` in global scope 
+              as bool can be overriden
+
+              but there is no way to override the not operator in python
+
+
+   So in case of bool(x) :- lookup of `bool` name + call function bool() 
+                     
+   => Calling Function in Python :- actually is slow than workinng woth operator 
+   => Whereas `not not x` does nnot have to go with func-call path it directly goes to boolean conversion 
+
+   not :- UNARY_NOT instruction (in assembly lang)
+
+
+* if and bool expresssion :
+  --------
+   
+   if x   vs   if bool(x)
+
+   `if x` is not calling bool() on x 
+          instead its using internal mechanism & its faster than calling func ie bool(x)

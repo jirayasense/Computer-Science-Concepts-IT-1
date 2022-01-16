@@ -53,3 +53,10 @@
       you can consider finding the prefix-sum first
 
       Then you can find any sub-array sum in constant time
+
+* Recursive vs Iterative :
+  -------
+   User Recursion only when its needed ie When you want to utilise the recursive call results
+   if you are not going to utilise the Recursive Call Results & Just pass through all return statement
+
+   then its preferred to use Iteration

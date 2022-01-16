@@ -1,5 +1,9 @@
 https://resocoder.com/2018/09/07/mvvm-on-android-crash-course-kotlin-android-architecture-components/
 
+* MVVM :
+  ----
+   is Opinionated Way to Structure your Android Project
+
 => Data-Binding Put Code right in XML rather than Activity files
 
 * Architectural Pattern :

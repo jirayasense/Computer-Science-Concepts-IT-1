@@ -11,4 +11,11 @@ Dot Product :- product of length of vectors that are moving together
 
 Cross Product :- multiplying part of A that is going in perpendicular direction of B
                - how much they move in perpendicular direction
-               
+
+               -> Will give you the Vector perpendicular to 2 existing Vectors 
+
+* Tangent :
+  ------
+   -> is a Line that touches the Funnction at one Point
+   -> It helps to find the Slope of an Equation
+   -> It helps to determinne if Funnction is Growing or Degrading

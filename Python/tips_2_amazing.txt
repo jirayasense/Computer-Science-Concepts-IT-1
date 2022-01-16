@@ -13,6 +13,8 @@
 
 * To get the info regarding any function call in python you can usen :- cprofile.run 
 
+* Use not not x instead of bool(x)
+
 --------
 
 => 0 & -0 are same object ie integer 0 & -0 are same 

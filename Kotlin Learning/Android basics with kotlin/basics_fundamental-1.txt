@@ -191,3 +191,15 @@
          -> You can listen such updates via BroadCastReciever()
             
             
+* Foreground Service vs background service :
+  -------------
+   Foregrounnd :- Notification
+         \
+          User is actively aware about the Service Running 
+          - cannot be killed by Android system 
+          - like activity inn foreground 
+    
+
+* Notification Channel :
+  -----
+   - To shown Notification 

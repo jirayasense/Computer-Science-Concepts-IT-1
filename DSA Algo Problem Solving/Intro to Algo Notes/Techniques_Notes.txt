@@ -7,3 +7,6 @@
   ------
    DP = Bottom Up 
    Memoized Recurrssion
+
+   processed + Un-Processed 
+   Include + Not-Include 
