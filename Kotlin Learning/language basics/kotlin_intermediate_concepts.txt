@@ -11,3 +11,10 @@
    synchronied(lock:this){
      // allowing only 1 thread to ente this block at a time
    }
+
+
+* Delegated Properties :
+   1) Observable
+* lazy Property 
+* lateinit
+

@@ -17,3 +17,8 @@
    and modify the MediaQuery which then is passed down to it’s child.
 
 * barrel file = file of import statements 
+
+* Shrinkwrap & ViewPort :
+  -------------
+   ViewPort : Space allowed for ListView
+   Shrinkwrap :- Forcibly evaluate inner nnested Widgets

@@ -3,3 +3,9 @@
    in Python 
      to compare reference equality :- `is`
     & to compare value equality   :- `==`
+
+
+* Tuple & Copy :
+  ---------
+   - When you create a tuple from another tuple then same tuple object is referred (ie Canonical Form)
+   - There is no point in creating a Shallow Copy of an immutable obj so thus its just making a copy of reference

@@ -42,9 +42,14 @@ AMAZING QUE : Why -ve num can't be base ??
                                  2) Processed & UnProcessed
 
                                  3) Include & Exclude
-
                                  4) Recursion Memoized
 
 * Sliding Window problem can be well suited with the 2 pointers method
 
 * Top k fequent elements :- Counter or heap or Bucket Sort
+
+* Use tuple :- when order matters 
+      frozenset :- when order not matters 
+
+* When need to work through rows & cols of matrix, 
+  then just create Hash-Set of Rows & Columns seperately

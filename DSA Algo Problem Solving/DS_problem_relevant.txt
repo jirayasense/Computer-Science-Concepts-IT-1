@@ -8,3 +8,14 @@ DFS :- recursion & backtracking
    -> useful when you want to get smallest or largest element 
    - nsmallest or nlargest
    - n most-freq-element
+
+   - Min Heap :- get Smallest Elem in O(1) time 
+     Max Heap :- get Largest Elem in O(1) time
+
+
+* LRU Cache :
+  ----
+   LRU Cache = Doubly LinkedList + Hash-Map
+                &
+               also keep track of capacity
+

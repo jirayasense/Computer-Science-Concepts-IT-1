@@ -203,3 +203,23 @@
 * Notification Channel :
   -----
    - To shown Notification 
+
+
+* Pending Intent :
+  ------
+   -> Intent is meant for communication between service & Activity 
+   -> Pending Intent is intent that can be started later
+
+   - FLAG_UPDATE_CURRENT
+
+* Implicit Intent :
+  ----
+   -> No components is provided explicitly
+      instead System recognizes the component itself to show up for intent 
+  
+   - Eg Opening Web Url (WebView)
+
+  Explicit Intnent :
+  ---
+   -> Component is required to be provided
+   - eg Navigation between pages 

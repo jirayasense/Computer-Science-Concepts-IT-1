@@ -24,6 +24,22 @@ TIP -> Always first think for bruteforce approach
 
 11) Boyer-Moore algorithm (Majority Element)
 
+12) LRU Cache  (Doubly Linked List + Hash-Map)
+
+13) Floyd Algorithm (Find Duplicate in range 1 -> n)
+     \
+      Rabit  & Tortoise (Fast & Slow Pointer)
+
+14) Monotonic Increasing Stack
+
+15) Detect Squares/Rectnagles in Grid
+
+
+---
+EXPLORE
+
+Valley Peak Appraoch
+
 
 => When you need to find something potential ans in a range (i.e start & stop)
     - binary search can be useful
@@ -32,3 +48,8 @@ TIP -> Always first think for bruteforce approach
   ------
    - Hoare & Lamuto (for sorting)
    - Grow & Shrink (Sliding Window)
+
+* Merge Sort :
+  ----
+   - LinkedList 
+   - 

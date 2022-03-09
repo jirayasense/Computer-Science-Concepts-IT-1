@@ -17,3 +17,13 @@ Dagger vs Kode-in :
   Service locator :- happens at run-time
 
   So Dagger is more performant thann Kode-in
+
+
+* View Model Advantage :
+  ------
+   -> LiveData 
+      ---
+       -> When Device is rotated, then all data from Activity gets lost 
+          but 
+          If we follow MVVM pattern then its not much concern as We can immediately get those 
+          data from LiveData 

@@ -27,3 +27,11 @@
       
       Such function dont require dot notation
 
+* Delegated Properties :
+  ------
+   Delegates.observable 
+   Delegates.vetoable
+
+* Lazy properties :
+  ----
+   by lazy

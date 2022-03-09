@@ -19,7 +19,7 @@ def maxDepth(root: Optional[TreeNode]) -> int:
         return 1 + max(maxDepth(root.left), maxDepth(root.right))
 
     def bfs_queue(root):
-        ''' BFS via Queue ie counting numbers of levels '''
+        ''' BFS via Queue ie counting numbers of levels (Level Order) '''
         if not root:
             return 0
         

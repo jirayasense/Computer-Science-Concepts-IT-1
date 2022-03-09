@@ -11,3 +11,7 @@ https://www.calculushowto.com/probability-mass-function-pmf-definition-examples/
 
 brilliant : (best for Data Science)
 
+--------
+
+Constrained Optimization + Langrange (Khann Academy)
+  khanacademy.org/math/multivariable-calculus/applications-of-multivariable-derivatives/lagrange-multipliers-and-constrained-optimization/v/lagrange-multiplier-example-part-1

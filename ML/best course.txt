@@ -64,6 +64,8 @@ handson :-
   Keith galli
   Python Engineer
   Tech with Tim
+  Kimberly Fessel (Seaborn)
+  DataSchool
   
 theory :-
   Krish Naik
@@ -84,7 +86,7 @@ theory :-
   
   Normalized Nerd  (** iMP)
   Weights & Biases
-  Inntutive Machine Learning
+  Inntutive Machine Learning  (** Imp)
 
 Maths & Stats :-
   3 blue 1 brown

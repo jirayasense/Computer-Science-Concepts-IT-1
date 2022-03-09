@@ -40,7 +40,7 @@ NOTE : RetroFit comprise of several facility for parsing common formats such as 
     retrofit req. 2 things :- 1) Base Url (of Web Service)
                               2) Converter (to parse response appropriately)
 
-      -> Retrofit.Builder() helps to achioeve things 
+      -> Retrofit.Builder() helps to achieve things 
 
     enque() method
     ____

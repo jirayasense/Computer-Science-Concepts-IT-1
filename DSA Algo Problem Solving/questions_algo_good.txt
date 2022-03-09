@@ -5,6 +5,12 @@
 
    2 Pointers Partition : Hoare & Lamuto
    prefix Sum :- Fenwick Tree
+   Longest Repeating SubSeq :- Suffix Array
+
+
+Custom Data structure 
+
+  LRU Cache := Doubly Linked List + Hash-Map 
 
 
 logics :
@@ -14,6 +20,7 @@ logics :
 2 Pointers | Partition 
   
   Hoare / Lamuto / remove elements (https://leetcode.com/problems/remove-element/)
+  Lamuto | Window | 2 Pointer (https://leetcode.com/problems/find-k-closest-elements/)
 
 
 Linear Search :
@@ -36,10 +43,19 @@ Binary Search :
    Max Remove Character (https://leetcode.com/problems/maximum-number-of-removable-characters/
 )
 
+Data Structures :
+ 
+
 -** Sliding Window Maximum (Deque) (https://leetcode.com/problems/sliding-window-maximum/)
 -** Sub Array Sum Equals K (HashMap Imp) (https://leetcode.com/problems/subarray-sum-equals-k/)
 -** min size sub array sum (Grow-Shrink Window) # https://leetcode.com/problems/minimum-size-subarray-sum/
 
+   Stack :- Asteroid Collision (LeetCode)
+   Monotonic Incr Stack :- Max SubArr MinProd (# https://leetcode.com/problems/maximum-subarray-min-product/)
+
+-** LRU Cache 
+-** Detect Squares/Rect in Grid
+    
 Sorting  :
    
    n largest elem - (Heap Sort) | (https://leetcode.com/problems/maximum-product-of-three-numbers/submissions/)
@@ -83,11 +99,15 @@ Graphs
    
  -** Topological Sort - Alien Dict (https://leetcode.ca/all/269.html)
 
+ -
+
 
 * Sliding Window :
 
  -** (Max Substring Window) (https://leetcode.com/problems/minimum-window-substring/)
  -** (Anagram in Substring) (https://leetcode.com/problems/find-all-anagrams-in-a-string/)
+
+ - (Longest_Rpeatinng_SubString_Replace) (https://leetcode.com/problems/longest-repeating-character-replacement/)
 
 
 * DP :
@@ -96,3 +116,15 @@ Graphs
   no. Longest Incre Subseq  (https://leetcode.com/problems/number-of-longest-increasing-subsequence/)
 
   longest Increasing Path in Matrix (https://leetcode.com/problems/longest-increasing-path-in-a-matrix/)
+
+
+* Greedy Solution 
+
+  Jump game  (# https://leetcode.com/problems/jump-game/)
+  
+  **IMP :- [Greedy + BFS | 1-dimensional array BFS]
+  Jump Gamme 2  (https://leetcode.com/problems/jump-game-ii/)
+
+* String 
+  
+  Longest Repeating SubSeq (https://leetcode.com/problems/longest-duplicate-substring/)

@@ -7,6 +7,8 @@
 
   URI : baseUrl -> path -> query Param
   Header : Authorization, request/response body info
+
+  Header + Body 
   
 
   scheme_name:hierarchical_part?query#fragment
@@ -37,6 +39,10 @@
      Python (Interpreter ) :- has concepts of reference-counting primararily for Memory Managemennt
 
      Python :- is good for Single Threaded (& its give good performance for same)
+
+   - Typically High-Level lang (like) Python provides the Garbage Collector for Memory Mmanagement 
+     & 
+     Low-Level Lang like (C) provides you func for memory management like malloc * calloc 
 
 
 * Dynamic Memeory Allocation (DMA)
@@ -108,3 +114,7 @@ Algorithms
 
 
 -----------------------------
+
+* Fragmentation 
+  ------
+   -> memory Allocator - heap

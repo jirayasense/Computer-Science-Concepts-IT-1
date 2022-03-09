@@ -22,6 +22,11 @@ deffered = Future in flutter
 
 ______________________________________
 
+NOTE :- Suspended Fun when use another suspended fun inside it implicitly await & do synchronous operation 
+        You need to use asunc block 
+
+-----
+
 * Thread :
   -----
    - sleep()   // sleeps a thread 
@@ -58,7 +63,7 @@ ______________________________________
    Dispatcher :
    ----
     -> When we provide Dispatcher to runBLocking ie Coroutine it will switch to 
-       different thread most if the time.
+       different thread most of the time.
 
     => eventhough runBLocking code runs in different thread via Dispatcher, 
        it will block the current Thread 
@@ -112,3 +117,25 @@ ______________________________________
      when you want to await multiple things at oncne use async 
 
    - dont want to run concurrently you can use withContext{}
+
+
+
+---------------
+GOOD PRactices
+
+1) Calling Multiple API Fun (Suspended Fun)
+    \
+     -> CoroutineScope -> async{} -> deffered -> awaitall()
+
+     - ensureActive()
+
+
+2) Main Safe & Suspended Fun :
+   ---
+    ->
+
+3) ViewModel should not expose the Suspending Function to UI
+
+[RULE of THUMB]
+4) To utilise the suspended fun inside non-suspended fun we need some scope
+   ViewModel Scope outlives the lifecycle of activity

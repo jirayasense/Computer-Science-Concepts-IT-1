@@ -81,6 +81,11 @@ MIMP ->>>
   -----
    To gain & pass the reference of Variable in kotlin use `::` operator before variable-identifier
 
+* Delegation & `by` :
+  -----
+   Kotlin supports “delegation” design pattern by introducing a new keyword “by”.
+   
+
 ===================================
 
 * Some Kotlin Facts from designer of Kotlin :
@@ -121,3 +126,7 @@ MIMP ->>>
                    thread attempts
 
 
+- override fun invoke()  // to make kotlin class callable/invokable
+
+
+* Wrapper Class in Kotlin can be of any kind :- ie Sealed Class or Data Class 

@@ -7,3 +7,20 @@
 * MVVM             // Aarchitecture
 * Flows            // streaming
 * Junit | Expresso
+
+-- Intermdeiate
+
+* Solid Architecture
+    \
+     - MVC, MVVM, MVI 
+     - SOLID Principles 
+     - Automated Tests 
+     - Layered Aarchitecture (Presentation, Domain, Data, Application)
+
+
+-- ADVANCE
+
+* Bluetooth
+* Sensors
+* Storage
+

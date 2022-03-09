@@ -93,11 +93,16 @@
   (when used with yield Statement)
 
 
+* lru_cache decorator  problem :
+  --------------
+   -> It cannot cache the named argument beware of their order passed as an argument  
+
+
 * useful Python functions :
   ---------------
    -> map(), filter(), reduce()
-   -> itertools : accumulate, takewhile(), chain(), compress()
-   -> collections : namedtuple, Counter, deque, frozenset, defaultdict
+   -> itertools : accumulate(), takewhile(), chain(), compress(), count(), permutation(), combination(), product()
+   -> collections : namedtuple, Counter, deque, frozenset, defaultdict, OrderedDict
    -> math : log(), floor(), ceil(), round()
    -> sys : maxsize, argv, getsizeof()
    -> file: 
@@ -108,11 +113,13 @@
    -> time: time(), clock(), perf_counter()
    -> keyword : keywrod.kwlist
    -> operator : operator.attrgetter(), itemgetter()
+   -> timeit 
+   -> functools : reduce, lru_cache, 
 
 
 * useful python concepts :
   -------------
-   - circular references.
+   - circular references.   // `...`
    - Pattern Matching
     
     

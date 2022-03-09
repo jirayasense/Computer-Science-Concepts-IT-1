@@ -4,7 +4,7 @@
 => Gradle Scripts :- are helping android in automation of build tools 
    ----
     \
-     Its kinda Task which use to generate or build the aartifacts of an app or project 
+     Its kinda Task which use to generate or build the artifacts of an app or project 
      
      artifcats = apk & other files bundled
 
@@ -23,7 +23,7 @@
 
    - Project Level Gradle :- configurations available throughout all sub modules 
 
-   NNOTE :_ Your projects can be Decomposed into Multiple Modules :
+   NOTE :_ Your projects can be Decomposed into Multiple Modules :
              - App
              - Domain 
              - Data 

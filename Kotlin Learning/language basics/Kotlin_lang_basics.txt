@@ -338,6 +338,16 @@ _______________________
 
   - In Kotlin Lambda is internally (in java) is represented as a Class
 
+  Returning from Lambdas :
+  ---
+   -> If you use a regular return expression inside a lambda, 
+      you’ll return to the call site of the outer function.
+      (because lambda act as an closure to its enclosinng scope)
+
+  REMEMBER :
+   Remember that, for each lambda that you create to pass to another function, 
+   the Kotlin compiler generates an appropriate class extending FunctionN
+
 * Closures :
   ------
    - Lambas (as well as local functions) act as closures, 
@@ -348,3 +358,47 @@ _______________________
    - Add new functionalities without Inheritance
      - as multiple Inheritance is not allowed 
      - or class may be not extendable (ie Sealed Class or final Class)
+
+   => extension function implicitly receives an instance of the extended class
+
+* Lambdas with Recievers :
+  -------
+   -> You can pass extension function as an argument for lambda as well to function
+
+
+* Qualified Return :
+  -----
+   use `return@qualifierName`
+
+* Inline Function :
+  -----
+   -> In case of lmabda func if you use it multiple times & as its creating class underhood
+      it may increase memory usage and have a performance impact on your application.
+
+     To avoid such behavior, you can mark your function with the inline keyword, 
+     which replaces the function call at the call site with the body of the function. 
+
+   If you try to inline a function which doesn’t receive any lambdas as parameters, 
+   then inlining has a high probability of being useless; 
+   no extra classes get generated and there’s no need to inline the function
+   
+   - noinline
+  
+  crossinline
+  ____ 
+   -> avoid non local return (ie return from main parennt function)
+   -> When lambda shouldnot allow nonlocal return (ie return without a label is not allowed) 
+
+* tailrec :
+  -----
+   -> If last call of function is call to itself then it is called tail recursive
+   -> You can mark such func as tailrec modifier
+
+* infix :
+  -----
+   -> func with only 1 argument can be invoked as a statement directly
+
+* Sequences :
+  ------
+   - generators | Iterators of python 
+   - Lazy Iterable 

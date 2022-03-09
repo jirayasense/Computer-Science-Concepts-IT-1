@@ -39,7 +39,17 @@ git configurations :
    git merge --no-ff documentation   // merge documentation branch into current branch
                                      // flag prevents git merge from executing a "fast-forward" 
 
+* git cherry pick :
+  -----
+   1) Do Pick & Commmit (of hash)
+      - git cherry-pick af02e0b
 
+   2) Apply Changes but do not commit 
+      - git cherry-pick af02e0b --no-commit
+
+* git status :
+  -----
+   -> Short Status :-  git status -s
 
 
 ----------------

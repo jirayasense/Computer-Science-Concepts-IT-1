@@ -6,3 +6,10 @@
    
    -> Here we will require Private Constructor + Companion Object 
       to implement Singleton Pattern in Kotlin
+
+
+* Wrapper Class :
+  ------
+   -> Sealed Class or Data Class or any other kinda 
+
+   

@@ -24,7 +24,6 @@ ref : https://developer.android.com/topic/libraries/view-binding
 - ImageViews should have a content description to help make your app more accessibles.
 
 
-
 * Data Binding : 
   __________
   - depraved of using findViewId() [Not relying on deep heirarchy at runtime]

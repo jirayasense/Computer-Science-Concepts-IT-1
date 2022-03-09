@@ -4,6 +4,7 @@
  https://www.educative.io/blog/dart-2-language-features
  https://www.programmersought.com/article/75333446596/
 
+ https://quickbirdstudios.com/blog/flutter-dart-mixins/
 
 * Upcast  (Implicit Casts)
   -----
@@ -52,6 +53,10 @@
       \
        Why ? because `this` refer to enclosing class only so.
 
+* factory & default constructor :
+  ----------
+   -> If you define the Factories then you will loose default imp of default (parameter less) constructor
+
 
 _______________
 
@@ -80,3 +85,19 @@ _______________
     - fake Data is king & abstraction allow us to use Fake Data efficiently
 
     Eg You can start development even if API is not completed
+
+
+* Mixin vs SubClass|Iheritance :
+  ----------
+   In SubClass Methodology : properties & methods are shared by all descendents
+   Whereas in case of mixins : we can restrict this & only those children that want it can use it.
+
+   Mixin helps us to deal with 2 Major things :
+     - Don't loose the abilities of Your parent class (as Single inheritance is only allowed in dart)
+     - DRY principle :- Dont repeat yourself
+
+   Idea :- Create class for Minimal Properties Shared by multiple descendents
+
+   => a way to reuse the code in multiple class hierarchies
+
+   Mixins := Allows -> { Encapsulation, DRY, }

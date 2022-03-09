@@ -17,20 +17,13 @@ https://medium.com/tunaiku-tech/s-o-l-i-d-principles-simplified-explanation-exam
     -> https://www.educative.io/blog/solid-principles-oop-c-sharp
 
    Open-Closed Principle :
+   -----
+    -> One Way Flow (Extend only & cannot modify)
+      
       Through polymorphism, we can extend our parent entity to suit the needs of the child entity 
       while leaving the parent intact.
 
-   DI :
-     DIP is that decoupled programs require less work to change
-
-     " Classes that perform actions or functionality should not depend on the Classes doing the work, 
-     it SHOULD DEPEND on an abstraction of that class "
-
-    -> Data (low-level) & Business logic(High-level) both must depends on abstractions of model 
-       [Loose Coupling]
-
-
-   -> Open-Closed in my terms :
+    -> Open-Closed in my terms :
       --------
        Let Say a math teacher has create a class for Some theorems he invented.
        Then the disciples will use those theorems in exams .
@@ -44,6 +37,16 @@ https://medium.com/tunaiku-tech/s-o-l-i-d-principles-simplified-explanation-exam
 
        Eg2 - Consider Programming languages instead of theorem.
 
+   DI :
+   ----
+     DIP is that decoupled programs require less work to change
+
+     Contract - Way :-
+     " Classes that perform actions or functionality should not depend on the Classes doing the work, 
+     it SHOULD DEPEND on an abstraction of that class "
+
+    -> Data (low-level) & Business logic(High-level) both must depends on abstractions of model 
+       [Loose Coupling]
 
 
 * Inheritance vs Composition :

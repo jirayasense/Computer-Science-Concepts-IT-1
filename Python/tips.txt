@@ -88,6 +88,12 @@ Articles :- analytics vidhya
 19) To calc time :- timeit 
             space :- o.__sizeof__()
 
+20) Use enumerate(zip(t)) => to get tuple with respective indexes unfold
+
+[inspect members]
+21) To get the all the Function Member of particular {ClassName} :- 
+      -> inspect.getmembers(ClassName, inspect.isfunction)
+
 --------------
 
 Python builtin frequently used 
@@ -97,3 +103,5 @@ ord(), chr(), issubclass()
 round(), truncate()
 
 zip(), enumerate(), reduce(), partial(), 
+
+exec(), eval()

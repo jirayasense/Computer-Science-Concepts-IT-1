@@ -44,10 +44,10 @@ Note : When return type of Function is void, we can return Null
     that queues all tasks to be performed by isolate
 
 * stream listen() vs await for :
-  --------------
+  ---------------------------
    stream.listen() sets up code that will be put on the event queue when an event arrives
 
-   await for suspends between events and keeps doing so until the stream is done, 
+   `await for` suspends between events and keeps doing so until the stream is done, 
    so code following it will not be executed until that happens.
 
 
@@ -79,3 +79,7 @@ Note : When return type of Function is void, we can return Null
 
         instance variable (class variables) :- need specific type either nullable or non-null;
 
+
+* Factory Constructor & null return (ie Mixin Concept)
+  --------------
+   https://stackoverflow.com/questions/21792489/is-it-acceptable-to-return-null-from-a-factory-constructor-in-dart#:~:text=5%20Answers&text=With%20null%2Dsafe%20Dart%2C%20factory,with%20static%20methods%20when%20migrated.

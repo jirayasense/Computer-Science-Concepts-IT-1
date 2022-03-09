@@ -5,13 +5,22 @@ NOTE ->
   Whereas python do not == ord('c') - ord('a')
 
 
+=> Major Concept goes by diff name inn diff ecosystem  
+
+
 
 * C#
   ---
    -> Boxing UnBoxing
    -> ref out 
-   -> virtual 
+   -> virtual, new 
    -> LinQ/Lambda  (Kinda Sql Query)
+
+   -> Method ( Overloading, Overrdiding, Hiding )
+   -> Partial Class, Partial Methods 
+   -> Sealed Class
+   -> Extension Method
+   - Digit Seperator ('_')
 
 
 * Kotlin 
@@ -24,6 +33,7 @@ NOTE ->
    -> reified parameter
    -> Delegated Properties  (`by`)
    -> Infix function (eg with, matches, etc...)
+   -> tailrec function 
 
 
 * Java 
@@ -67,6 +77,14 @@ NOTE ->
 
    -> Chaining vs merging (python dictionary)
    -> ShortHand | Inplace modification (mutable vs immutable)
+   -> Sentinel Obj|Value  (Eg None)
+
+   -> Optimization | Memory management | GIL 
+   -> Garbage Collections
+   -> Finalizers | __del__
+
+   -> Python Virtual env
+
 
   
 

@@ -138,13 +138,17 @@ siwtch() stmt :
     -> Every time when you want to tighten type from super class to sub class 
        you can use `covariant` keyword (in overriden method signature) 
 
+    -> Use `covariant` keyword when you are overriding any operator & you want to pass the Type for an argument (ie Method Overloading)
+
+    -> useful especially in doing method overriding with diff param type 
+
 
    extends vs implements :
    --------------
-    -> extends (i.e Inheritance) shared the base class behaviour 
-
-    -> implements (i.e Interface) forced behaviour of Parent class to child class
-
+    -> extends (i.e Inheritance) shared the base class behaviour   (to suit your needs)
+ 
+    -> implements (i.e Interface) forced behaviour of Parent class to child class (to suit parent needs)
+ 
    NOTE : If method possess body then only it will get overriden otherwise not 
 
    

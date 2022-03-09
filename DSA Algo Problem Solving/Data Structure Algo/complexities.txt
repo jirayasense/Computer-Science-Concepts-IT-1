@@ -44,3 +44,9 @@ _________
    & whenever slots goes out of needs, new memory with more size (normally double of size)
    is allocated & all the old contents is transfer to new one (created)
    The overhead reuqire for such thing is known as amortized complexity
+
+
+* Hash & String :
+  ---------
+   Given String of length n :
+     - Computing hash(s) takes O(n) time as computing hash of individual character itself

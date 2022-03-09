@@ -85,3 +85,7 @@ Youtube :
   Data structures :
     
     https://www.youtube.com/watch?v=fYlnfvKVDoM
+
+
+  NeetCode 
+  Reducible

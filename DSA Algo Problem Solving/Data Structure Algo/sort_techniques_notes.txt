@@ -17,6 +17,7 @@ Tips :
    -> Space - O(1)
    -> Largest element at the end at each step
    -> Counter + Pointer
+   -> At the end of each iteration, the end portion of the list will be sorted.
 
 
 * Selection Sort :

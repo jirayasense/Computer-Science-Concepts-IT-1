@@ -5,7 +5,7 @@
       Thus it will not represent any real-world object
    
    -> So any kind of OOPS principles (Abstraction, Polymorphism, Inheritance, Encapsulation)
-      will not be applied.
+      will not be applied. (to static Classes)
 
    -> class with fixed behavior
 

@@ -12,7 +12,7 @@ Remember :
     -> A class that knows how to create ViewModel.
 
 * Observable Fields :
-  -----
+  ----- 
 
 * Transformations (esp for LiveData)
   ---

@@ -11,7 +11,7 @@
 
 2) provider setup dart file 
    ------
-    providers can be segregated innto 3 categories 
+    providers can be segregated into 3 categories 
       \
        - independent-services   // API 
        - dependent-services    

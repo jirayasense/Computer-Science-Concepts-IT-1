@@ -53,3 +53,8 @@ gst – git status
 
 * clear the terminal : `ctrl + L`
   ----------
+
+
+* modify bash file (mac) :
+  ---
+   nano .bash_profile

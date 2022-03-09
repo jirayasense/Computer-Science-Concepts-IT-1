@@ -28,6 +28,10 @@ Some Server -> represent state in some format f1
       
      HTTP Headers :- meta-data associated with api req (Eg language used in request)
 
+------
+
+- Request -> { HTTP-Methods + Endpoint + Query-Param + Data } -> REST API -> Web Services (resources)
+
 
 __________
 

@@ -20,12 +20,14 @@ To Learn :
   - Search & Filter in ListView
 
   - ScopedModel
+  - Inherited Widget
 
  Dart ::
   
   - mixin
   - RxDart 
   - Isolates 
+  - Interface | Abstract Class
   
 
 Core Concepts :

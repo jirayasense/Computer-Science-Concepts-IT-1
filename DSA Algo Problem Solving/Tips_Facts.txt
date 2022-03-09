@@ -60,3 +60,10 @@
    if you are not going to utilise the Recursive Call Results & Just pass through all return statement
 
    then its preferred to use Iteration
+
+
+* Dynamic Programming :
+  --------
+   -> You can have entire Matrix as DP 
+      or
+      You can have hash-set where matrix coordinates corresponds to cell val

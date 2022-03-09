@@ -78,6 +78,8 @@ Do Not Violate Open-Closed Principle -> modify existing code much...
   -------
   (behavioural design pattern)
 
+  - Feature Wise Segregation
+
   Encapsulate diff calculation logic in seperate classes i.e (Strategies) 
 
   emphasis encapsulation 
@@ -96,7 +98,10 @@ Do Not Violate Open-Closed Principle -> modify existing code much...
 
        list Utils or Num Utils
 
+       Sealed Enums | Sealed Classes(Kotlin)
+
   Open-Closed Principle -> You can add new Strategy(new algo) without interrupting existing one.
+  ----------
   
   => (Extract functionality from start) & Define Common Interface to interact
 
@@ -161,7 +166,7 @@ Do Not Violate Open-Closed Principle -> modify existing code much...
 
    - Via this way UI is not tightly bound to class specific implementation
 
-   -> Basically there are 2 innterfaces i.e 1) Creator Class 2) Product Which is being created
+   -> Basically there are 2 interfaces i.e 1) Creator Class 2) Product Which is being created
 
    Singleton :
    --
@@ -179,3 +184,27 @@ Do Not Violate Open-Closed Principle -> modify existing code much...
    Provides Compile-Time flexibility & Run-Time flexibility
 
    this pattern removes the direct binding of application-specific classes into the code.
+
+
+* Command :
+  -----
+   -> commands become a convenient middle layer that reduces coupling between the UI and business logic layers.
+
+   Sender - UI
+   Reciever - Business Logic Layer (Presentation Logic Holder)
+
+   
+
+* Memento :
+  ----
+   - behavioural 
+   - works alongside Command Design pattern
+
+   -> Capture or Take Snap of Object curr state 
+  
+   -> Good Eg of Memento is Github & Git -> Snaps of branches
+
+   Terms :
+     1. Originator : one whose state's gonna be tracked 
+
+     2. CareTaker : responsible for storing & restoring Originator's internal state

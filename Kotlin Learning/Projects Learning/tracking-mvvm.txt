@@ -155,7 +155,6 @@ Flow :
   ------
    Notification Channel :
    ----
-
    Note :- Notification Service is System Service (from Android Framework)
 
 * Pending Intent :
@@ -167,6 +166,8 @@ Note :- When our MainActivity launched with new Intent then either of following 
         are called !
          1) onCreate()
          2) onNewIntent()
+
+   -> FLAG_UPDATE_CURRENT  // To update the extra content passed in Pending Intent
 
 
 * Global Action in NavGraph :
