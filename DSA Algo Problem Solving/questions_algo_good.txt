@@ -52,9 +52,12 @@ Data Structures :
 
    Stack :- Asteroid Collision (LeetCode)
    Monotonic Incr Stack :- Max SubArr MinProd (# https://leetcode.com/problems/maximum-subarray-min-product/)
+-** monotonic Decr Stack := Daily Temperatures (https://leetcode.com/problems/daily-temperatures/)
 
 -** LRU Cache 
 -** Detect Squares/Rect in Grid
+
+-> Single Thread CPU (Heap-Priority Queue) (# https://leetcode.com/problems/single-threaded-cpu/)
     
 Sorting  :
    
@@ -72,6 +75,8 @@ Recursion :
   Partition to k equals Sum  (https://leetcode.com/problems/partition-to-k-equal-sum-subsets/)
 
   Combination SUM 2 (# https://leetcode.com/problems/combination-sum-ii/)
+
+  4 Sum (https://leetcode.com/problems/4sum/)
   
 Tree :
    

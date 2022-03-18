@@ -23,6 +23,16 @@ Best Python Online Interpreter :
    Python Course eu :- https://www.python-course.eu/python3_class_and_instance_attributes.php
    
    FullStackPython - https://www.fullstackpython.com/
+
+-----
+
+8) Python Tips : 
+    - https://book.pythontips.com/en/latest/#
+
+    - https://pythontips.com/?theme_preview=true
+
+    [Daily Dose of Python]
+    - https://jerry-git.github.io/daily-dose-of-python/
    
 -----------
 

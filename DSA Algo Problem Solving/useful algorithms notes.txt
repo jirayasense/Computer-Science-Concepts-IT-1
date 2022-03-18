@@ -19,7 +19,7 @@
 
 10) Floyds Algorithm (Find Duplicate in range 1->n)
 
-11) Monotonic Increasing Stack 
+11) Monotonic Increasing|Decreasing Stack 
 
 12) Detect Squares & Rectnagles in Grid
 

@@ -118,7 +118,7 @@ Chains - help to create view groups
 
 
    Android LifeCycle Object :
-  ----------
+   ----------
    -> this object can be queried for the state.
     
     LifeCycleOwner :- A class that has a life cycle (Activity & Fragment)

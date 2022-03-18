@@ -30,6 +30,8 @@ DSA :
 Programming :
   Zaiste Programminng
 
+BLOC :
+  Max on Flutter 
 
 
 Dart :- https://courses.codewithandrea.com/courses/the-complete-dart-guide-for-beginners-and-beyond/lectures/31920721 

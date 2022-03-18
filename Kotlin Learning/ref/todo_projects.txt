@@ -1,0 +1,7 @@
+* MVVM (Currency Converter - Philip)   [https://www.youtube.com/watch?v=ct5etYgB5pQ]
+
+* MVVM (Tracking App - Philip)  
+
+* Paginng3 & Compose (StevdZa) 
+
+* MVVM Parkign SPot (Map & MVVM Archi)

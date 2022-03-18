@@ -1,1 +1,7 @@
 https://www.softwaretestinghelp.com/c-sharp/oops-concepts-in-csharp/
+
+
+Youtube Channels (Dotnet C#)
+
+- Raw Coding 
+- James Montemagno

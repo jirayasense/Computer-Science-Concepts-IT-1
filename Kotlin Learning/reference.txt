@@ -14,3 +14,7 @@ ViewModel
 * StevDz
 * Philip Lackner
 * the Android Factory
+* Master Coding
+
+* Coding With Tea
+* Fox Android

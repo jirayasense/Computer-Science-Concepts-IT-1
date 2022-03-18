@@ -53,3 +53,5 @@ AMAZING QUE : Why -ve num can't be base ??
 
 * When need to work through rows & cols of matrix, 
   then just create Hash-Set of Rows & Columns seperately
+
+* Stack -> Monotonic Incr/Decr Stack 
