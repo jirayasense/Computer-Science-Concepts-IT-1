@@ -20,3 +20,16 @@ Layout :
  - Android Breakdown  (Java + XML)  // imp
 
  - Mastering Constraintslayout (https://www.youtube.com/watch?v=rzmB3UxxhaA)
+
+ - Onboarding/Walkthrough Screen - Geeks for Geeks (https://www.youtube.com/watch?v=0EnVUZhYNEI)
+       - StevDza Onboarding (https://www.youtube.com/watch?v=zLfRuBy2LzA&list=PLSrm9z4zp4mG9o873gDqCuGZkgOb_TR4N&index=21)
+
+
+------
+
+Youtube Channels
+
+ - StevDza 
+ - philip Lackner 
+ - 
+ - HoodLab

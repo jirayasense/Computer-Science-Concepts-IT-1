@@ -159,6 +159,8 @@ OOPS :-
 
      Abstract CLasses & Sealed Classes
 
+     Proxy Objects & Super() relation
+
 
 * Heap & Stack Importance :
   -----------

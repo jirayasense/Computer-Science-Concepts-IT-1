@@ -14,12 +14,22 @@
 
       Recursion + DP = Good + Worst = Avg = Greedy(Eager)
 
+   [**MIMP]
+   => Recursion Takes Space on Call Stack 
+      (So Space Complexity in Case of Recursivve Soln cannot be considered constant always)
+
+   
+
+
 
 * DP :
   ---
    -> With the help of DP, we can reduce exponential complexity m^n to polynomila ie m*n 
        \
         m^n -> m*n
+
+   -> 2 Dimension DP  (Eg -> Coin Change)
+      1 Dimension DP  (Eg -> Fibonnacci, Bank Robber)
 
 * Memoized Recurssion :
   ------

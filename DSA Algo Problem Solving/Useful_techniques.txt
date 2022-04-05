@@ -1,6 +1,8 @@
 TIP -> Always first think for bruteforce approach
 
 1) Binary Search
+   
+   Quick Search
 
 2) Kadane's Algorithm  (For max SubArray Sum)
 
@@ -29,10 +31,15 @@ TIP -> Always first think for bruteforce approach
 13) Floyd Algorithm (Find Duplicate in range 1 -> n)
      \
       Rabit  & Tortoise (Fast & Slow Pointer)
+      => Cycle Detection Algo
 
-14) Monotonic Increasing Stack
+14) Monotonic Increasing Stack  <- ***IMP
 
 15) Detect Squares/Rectnagles in Grid
+
+16) Union & Find (Connected Components)
+
+17) Merge Half (ie Divide & Connquer)
 
 
 ---

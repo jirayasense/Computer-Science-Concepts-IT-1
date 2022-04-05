@@ -25,3 +25,5 @@ Flavours of Python :
   Monkey Patching 
   Controlled Monkey Patching
 
+  MetaClass
+

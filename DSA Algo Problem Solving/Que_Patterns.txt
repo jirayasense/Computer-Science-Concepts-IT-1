@@ -12,3 +12,6 @@
 12. top k elements
 13. k-way merge 
 14. topological sort 
+15. Valley Peak Approach 
+16. Find Cycle in Graph
+17. Union & Find (Connected Components)

@@ -50,14 +50,21 @@ Data Structures :
 -** Sub Array Sum Equals K (HashMap Imp) (https://leetcode.com/problems/subarray-sum-equals-k/)
 -** min size sub array sum (Grow-Shrink Window) # https://leetcode.com/problems/minimum-size-subarray-sum/
 
-   Stack :- Asteroid Collision (LeetCode)
-   Monotonic Incr Stack :- Max SubArr MinProd (# https://leetcode.com/problems/maximum-subarray-min-product/)
--** monotonic Decr Stack := Daily Temperatures (https://leetcode.com/problems/daily-temperatures/)
+Stack :
+
+-Stack :- Asteroid Collision (LeetCode)
+ *-* Monotonic Incr Stack :- 
+      - Max SubArr MinProd (# https://leetcode.com/problems/maximum-subarray-min-product/)
+      - Remove K Digits (# https://leetcode.com/problems/remove-k-digits/)
+    
+ *_* :- monotonic Decr Stack := Daily Temperatures (https://leetcode.com/problems/daily-temperatures/)
 
 -** LRU Cache 
 -** Detect Squares/Rect in Grid
 
 -> Single Thread CPU (Heap-Priority Queue) (# https://leetcode.com/problems/single-threaded-cpu/)
+
+ - Seat-Reservation-Manager (Heap) (# https://leetcode.com/problems/seat-reservation-manager/)
     
 Sorting  :
    
@@ -121,6 +128,8 @@ Graphs
   no. Longest Incre Subseq  (https://leetcode.com/problems/number-of-longest-increasing-subsequence/)
 
   longest Increasing Path in Matrix (https://leetcode.com/problems/longest-increasing-path-in-a-matrix/)
+
+  House Robber (1D-DP) (https://leetcode.com/problems/house-robber/)
 
 
 * Greedy Solution 

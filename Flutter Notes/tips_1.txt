@@ -22,3 +22,12 @@
   -------------
    ViewPort : Space allowed for ListView
    Shrinkwrap :- Forcibly evaluate inner nnested Widgets
+
+* Wrap & Full Screen Size :
+  ----
+   - by default Wrap widget not takes full screen 
+     but you can simply wrapped it with SizedBox with infinity width to do so
+
+* Flexible Widget & LayoutBuilder :
+  ------
+   - You can use Flexible Widget alongwith LayoutBuilder to display Placeholder or Image accordingly

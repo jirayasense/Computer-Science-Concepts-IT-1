@@ -1,2 +1,6 @@
 For Graph Visualization visit :- GeoGebra
                                  MyPaint
+
+
+Indexed Priority Queue
+https://github.com/williamfiset/Algorithms/tree/master/slides/datastructures/priorityqueue

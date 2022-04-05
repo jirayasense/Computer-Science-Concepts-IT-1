@@ -24,6 +24,12 @@ Free ->
 
 DataQuest.io
 
+Certification ->
+
+WorldQuant University
+  - applied data science 2 
+  - applied data science labs (https://www.wqu.edu/programs/applied-ds-lab/)
+
 NPTEL ->  
 
  Introduction to Machine learning  - IIT kharagpur

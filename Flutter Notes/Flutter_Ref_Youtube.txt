@@ -1,25 +1,30 @@
 UI :
   MarcusNG
-  Mitch Koko
+  Mitch Koko  (***)
   Flutter Way  (Animation)
   MTechViral
-  Santos Enoque
+  Santos Enoque  (USeCase Learning | **)
+  dbstech
   Raja yogan
 
+  Flutter Mapp (Short Concepts | **)
+
 Logic :
-  Reso Coder
-  Filled Stack
-  Andrea
+  Reso Coder    (Rank1 | *****)
+  Filled Stack  (Rank1 | *****)
+  Andrea 
   MTechViral (CodePur)
   Flutterly
 
 Packages :  (Concepts)
-  Johannes Mike
+  Johannes Mike     (Short | best | ***)
   Syntac Ops 
+  Temi Codes  (Riverpod Esp)
 
 apps :
   Zero to Unicorn
   Coding Cafe    [Ubber Clone]
+  Doctor Code
   
 DSA : 
   William Fiset 

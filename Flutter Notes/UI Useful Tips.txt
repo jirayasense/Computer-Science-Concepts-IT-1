@@ -9,3 +9,32 @@
 * ScopedModel & Dialog & Scaffold Context
 
 * AnnotedRegion
+
+
+---------
+
+Top 10 useful Widgets 
+
+1) IntrinsicHeight & IntrinsicWidth
+2) Wrap   // next line
+3) Spacer()
+4) FittedBox()
+5) Expanded()
+6) Flexible()
+7) MediaQuery()
+     \
+      Orientation
+8) OrientationBuilder()
+9) LayoutBuilder() // instead of MediaQuery
+     \
+      constraints to create responsive desings
+
+
+------------
+External Package
+
+* functional_widgets   // reduce boiler plates 
+     \
+      -> Widget class into Functional Widgets
+
+      - goes well when use with ( Flutter_Hooks + RiverPods )

@@ -8,6 +8,12 @@ ref : https://www.educba.com/xml-cdata/
 ViewModel 
   https://medium.com/androiddevelopers/viewmodels-a-simple-example-ed5ac416317e
 
+Android Kotlin Extension (no finndviewbyid)
+https://antonioleiva.com/kotlin-android-extensions/
+
+Navigation Componennt
+https://medium.com/@muhamed.riyas/navigation-component-the-complete-guide-c51c9911684
+
 
 * CodingWithMitch
 * Reso Coder

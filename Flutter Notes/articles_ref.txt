@@ -47,3 +47,14 @@ https://lanars.com/blog/what-is-flutter
 
 [ Mobile Dev Blogs ]
  https://quickbirdstudios.com/blog/flutter-dart-mixins/
+
+[Integrate Flutter on Desktop]
+https://flutterondesktop.dev/how-to-seamlessly-integrate-flutter-apps-in-windows
+
+
+__________
+
+Flutter (general)
+
+- flutterbeads.com
+- raywennderlich flutter articles

@@ -64,6 +64,7 @@ NOTE ->
    -> LBYL (Non-Pythonic :- Look before you lead)
 
    -> Sloted Objects  & non-slotted objects 
+   -> Proxy Objects | Temporary Objects
    -> __slots__ vs __dict__ 
    -> weakreference  (weakref)
    -> free list  (for tuple canonicalization)

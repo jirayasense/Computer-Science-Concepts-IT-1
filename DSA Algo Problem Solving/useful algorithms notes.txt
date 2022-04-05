@@ -17,7 +17,7 @@
 
 9) String Longest Repeating SubString (Suffix array)
 
-10) Floyds Algorithm (Find Duplicate in range 1->n)
+10) Floyds Algorithm (Find Duplicate in range 1->n) (Cycle Detection Algo)
 
 11) Monotonic Increasing|Decreasing Stack 
 
@@ -90,3 +90,11 @@ list of alog:- https://github.com/xizhengszhang/Leetcode_company_frequency
   -------
    Merge Sort suits well with the linked List
    slow & fast pointer
+
+* Cycle Detection & Floyd Algo  :
+  -------
+   - 2 Pointer Approach
+
+* Graph :
+  ----
+   - Adjacency List  // Connected Components

@@ -1,8 +1,18 @@
+ref :- 
+
+
+[Indexed PQ] https://github.com/williamfiset/Algorithms/tree/master/slides/datastructures/priorityqueue
+
+-------------------------
+
 * Union & Find :
   ----------
    Idea : Magnets
 
-   Application : Minimal Spanning Tree
+   Application : 
+     - Minimal Spanning Tree
+     - Redundant Connection
+       
 
   Path Compression :
   ---------
@@ -57,6 +67,8 @@
 
 * Indexed Priority Queue :
   ---------
+  ref :- https://github.com/williamfiset/Algorithms/tree/master/slides/datastructures/priorityqueue
+
    -> Help to manage the Priority queue with HashTable + Array + Key-Index Way
    -> Any Operation on Indexed Priority Queue 
       Will required associated Key Index (ki) of a Particular Key (k)

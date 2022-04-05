@@ -2,6 +2,10 @@ Deque :- sliding Window Maximum
 
 DFS :- recursion & backtracking
 
+* Queue :
+  ------
+   UseCase :- Movie Theatre Ticket Counter
+
 
 * Heap :
   ---
@@ -12,6 +16,8 @@ DFS :- recursion & backtracking
    - Min Heap :- get Smallest Elem in O(1) time 
      Max Heap :- get Largest Elem in O(1) time
 
+   - Eg Seat-Reservation-Manager (UseCase) 
+
 
 * LRU Cache :
   ----
@@ -19,3 +25,6 @@ DFS :- recursion & backtracking
                 &
                also keep track of capacity
 
+
+* TreeSet | TreeMap :
+  -----
