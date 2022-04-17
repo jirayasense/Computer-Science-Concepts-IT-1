@@ -1,0 +1,2 @@
+* In ViewModel you do not have access to context 
+

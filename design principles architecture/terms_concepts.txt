@@ -6,3 +6,6 @@ Inheritance | Abstraction | Interface
 enums
 
 Dependency Injection
+
+
+Q) Dependency Injection vs Ddependenncy Inversion

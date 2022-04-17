@@ -9,3 +9,5 @@
 [mCoding Python] https://github.com/mCodingLLC/VideosSampleCode
 
 [Algorithm Analysis] http://www.openbookproject.net/books/pythonds/AlgorithmAnalysis/Lists.html
+
+[Pythonn Morsels - built in functions]

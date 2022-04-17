@@ -41,6 +41,7 @@ TIP -> Always first think for bruteforce approach
 
 17) Merge Half (ie Divide & Connquer)
 
+18) bellMan-ford cheapest path in graph (Given some Constraints)
 
 ---
 EXPLORE

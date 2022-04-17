@@ -31,3 +31,8 @@
 * Flexible Widget & LayoutBuilder :
   ------
    - You can use Flexible Widget alongwith LayoutBuilder to display Placeholder or Image accordingly
+
+
+* absolute & relative import related package :
+  -----
+   - always_use_package_imports 

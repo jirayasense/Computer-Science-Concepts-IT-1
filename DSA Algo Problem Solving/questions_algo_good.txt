@@ -17,6 +17,8 @@ logics :
   
   group Anagrams  [https://leetcode.com/problems/group-anagrams/]
 
+-** largest number (custom sorting total order)  https://leetcode.com/problems/largest-number/
+
 2 Pointers | Partition 
   
   Hoare / Lamuto / remove elements (https://leetcode.com/problems/remove-element/)
@@ -62,9 +64,15 @@ Stack :
 -** LRU Cache 
 -** Detect Squares/Rect in Grid
 
+Heap :
+
 -> Single Thread CPU (Heap-Priority Queue) (# https://leetcode.com/problems/single-threaded-cpu/)
 
  - Seat-Reservation-Manager (Heap) (# https://leetcode.com/problems/seat-reservation-manager/)
+ - Longest Happy String (MAX HEAP) ( https://leetcode.com/problems/longest-happy-string/ )
+
+ - Caar Pooling (min heap) (https://leetcode.com/problems/car-pooling/)
+
     
 Sorting  :
    
@@ -91,6 +99,7 @@ Tree :
    DFS (https://leetcode.com/problems/path-sum/)
    DFS-BFS 
 -** BFS (https://leetcode.com/problems/find-bottom-left-tree-value/) 
+   BFS Good Que (https://leetcode.com/problems/populating-next-right-pointers-in-each-node/)
 
    Cartesian Product (https://leetcode.com/problems/letter-combinations-of-a-phone-number/)
 
@@ -111,7 +120,7 @@ Graphs
    
  -** Topological Sort - Alien Dict (https://leetcode.ca/all/269.html)
 
- -
+ - Bellman Ford - Cheapest Fight | BFS (https://leetcode.com/problems/cheapest-flights-within-k-stops/)
 
 
 * Sliding Window :
@@ -142,3 +151,8 @@ Graphs
 * String 
   
   Longest Repeating SubSeq (https://leetcode.com/problems/longest-duplicate-substring/)
+
+
+* System Design :
+   
+  Encode & Decode String (https://www.lintcode.com/problem/659/)

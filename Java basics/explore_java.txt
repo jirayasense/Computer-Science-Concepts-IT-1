@@ -17,6 +17,10 @@ Java Articles :
 
   https://www.cosmiclearn.com/kotlin/treeset.php
 
+  [SimpleNerd] https://simplernerd.com/java-dynamic-parameters/ 
+
+  [BaelDung]
+
 * Library : 
   ------
    Collection, Guava

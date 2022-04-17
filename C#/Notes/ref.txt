@@ -5,3 +5,8 @@ Youtube Channels (Dotnet C#)
 
 - Raw Coding 
 - James Montemagno
+
+
+* C# vs C++
+  -----
+   - https://www.youtube.com/watch?v=BO1IJMqGDqg  (McCullough & Associates)

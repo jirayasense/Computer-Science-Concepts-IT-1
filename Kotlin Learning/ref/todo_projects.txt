@@ -5,3 +5,5 @@
 * Paginng3 & Compose (StevdZa) 
 
 * MVVM Parkign SPot (Map & MVVM Archi)
+
+* Stock Market App (Clean Architecture | Philip Lackner)

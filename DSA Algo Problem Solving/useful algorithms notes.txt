@@ -98,3 +98,27 @@ list of alog:- https://github.com/xizhengszhang/Leetcode_company_frequency
 * Graph :
   ----
    - Adjacency List  // Connected Components
+
+   - Path Search :- Djkistra, Bellman-ford
+
+
+* BellMan Ford Algo :
+  ------
+   Useful in several scenarios :
+   
+   - Cheapest path in Graph (directed) giveen some connstriants
+
+   - It can deal with -ve Weights whereas DijkStras cannot 
+
+   - BFS resembles in technique to BFS kinda thing (ie layer by layer)
+
+
+* Prims Algo (Minimum Spanning Tree) :
+  ---------
+   - Min cost to join n nodes wwith n-1 edges
+   
+   - BFS application
+
+   -> 2 data structures are used :- 
+       1) Visit :- Hash Set (to avoid cycles during exploration)
+       2) Frontier :-  Min Heap (to hold all possible candidate at curr level)

@@ -6,6 +6,8 @@
 * Inorder Traversal :- Sorted Order  (from BST)
   PostOrder Traversal :- Reversed sorted order (from BST)
 
+  Reverse Inorder Traversal :- ie Decreasing Order (from BST)
+
 * Topological Sort :
   --------
    DAG :- Directed Acyclic Graph

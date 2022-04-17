@@ -56,3 +56,5 @@
     \
      Sealed Class with basically 2 States :- Success, Failure
 
+
+* Do put your validation things in ViewModel & not in Presentation or UI side

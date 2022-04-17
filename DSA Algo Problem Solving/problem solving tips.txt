@@ -55,3 +55,7 @@ AMAZING QUE : Why -ve num can't be base ??
   then just create Hash-Set of Rows & Columns seperately
 
 * Stack -> Monotonic Incr/Decr Stack 
+
+* While using LinkedList | Queue :- use dummmy pointer to get rid off edge cases 
+     
+* Cheapest Path in Graph (esp Directed) :- Bellman-Ford
