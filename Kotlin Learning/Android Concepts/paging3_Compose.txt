@@ -18,6 +18,7 @@
 
 * Paging 3 :
   -------- 
+  - to paginate the data from diff data sources
   - to paginate the data either from Local (ROOM) or Remote (API)
   - data will be provided Page by Page (there is no need to get all data at once)
      \

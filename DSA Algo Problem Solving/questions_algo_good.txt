@@ -97,6 +97,8 @@ Tree :
    
    BFS (https://leetcode.com/problems/rotting-oranges/)
    DFS (https://leetcode.com/problems/path-sum/)
+   Greedy BFS | Snake Ladders (https://leetcode.com/problems/snakes-and-ladders/)
+
    DFS-BFS 
 -** BFS (https://leetcode.com/problems/find-bottom-left-tree-value/) 
    BFS Good Que (https://leetcode.com/problems/populating-next-right-pointers-in-each-node/)

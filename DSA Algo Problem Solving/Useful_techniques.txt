@@ -43,6 +43,8 @@ TIP -> Always first think for bruteforce approach
 
 18) bellMan-ford cheapest path in graph (Given some Constraints)
 
+19) Reverse Thinking (Esp for BFS & DFS)
+
 ---
 EXPLORE
 
@@ -61,3 +63,15 @@ Valley Peak Appraoch
   ----
    - LinkedList 
    - 
+
+
+----------
+Top Imp Techniques Algo 
+
+1) Heap 
+2) Sliding Window (2 Pointers) 
+3) Binary Search
+4) DFS & BFS
+5) Recursion
+6) Hash Maps
+6) Queue  (Mine)

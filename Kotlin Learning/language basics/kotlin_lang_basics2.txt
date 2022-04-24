@@ -70,3 +70,9 @@ NOTE
   ---
    Deferred :-  Contains async result once ready
    Job  :- allows you to create new Coroutine to perform some async tasks
+
+
+* LaunchedEffec :
+  ----
+   - Same as initState() in Flutter Stateful Widget
+     LaunchedEffect is same in Composable Function

@@ -9,3 +9,5 @@
 * groupby
 
 & LRU Cache
+
+* hash Map

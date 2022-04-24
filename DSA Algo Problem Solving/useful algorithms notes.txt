@@ -25,6 +25,11 @@
 
 13) 1 dimensional Array BFS + Greedy
 
+14) Prefix Tree ( Trie )
+    Fenwick Tree (Prefix Sum)
+
+15) Suffix Array (Kasai algo)
+
 
 list of alog:- https://github.com/xizhengszhang/Leetcode_company_frequency
 
@@ -122,3 +127,14 @@ list of alog:- https://github.com/xizhengszhang/Leetcode_company_frequency
    -> 2 data structures are used :- 
        1) Visit :- Hash Set (to avoid cycles during exploration)
        2) Frontier :-  Min Heap (to hold all possible candidate at curr level)
+
+* Djikstra's Algo - Shortest Path 
+* Kruskal Algo 
+
+
+* Prefix Tree ( Trie ) :
+  ------
+   - Special type of Tree
+   - Allow you to filter based on prefixes
+
+   - Prefixes can be checked very efficiently

@@ -18,3 +18,17 @@
   -------
    -> To get the navigation argument passed whilst navigation
    -> to restore state of ViewModel
+
+
+* GGradle Properties & Build Configg Prop : 
+  ----
+   -> We can use Gradle files to hold the config propeerty 
+      modulee wise (ie declared in build.gradle file -> default Config {})
+
+      Those Val will be avail unnder `BuildConfig` class
+
+
+* Share the Object among multiple Composable Screen :
+  ---
+   1) Via BackStack State 
+   2) Via Shared ViewModel

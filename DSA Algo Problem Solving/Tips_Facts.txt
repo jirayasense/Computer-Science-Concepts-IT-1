@@ -67,3 +67,11 @@
    -> You can have entire Matrix as DP 
       or
       You can have hash-set where matrix coordinates corresponds to cell val
+
+
+* For hash-map :
+  ----
+   -> use large Prime No as size of hash-map array so that hashing becomes efficient
+
+   - Inorder to make Hashing efficient whilst chaining 
+     use inital size as Large Prime Number (ie such as 769)
