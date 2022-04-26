@@ -3,3 +3,8 @@
 
 ref :-
 unsplash.com -> applications
+
+
+DI : dependency injection 
+ \
+  - Inject Repository In View

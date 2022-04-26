@@ -94,6 +94,8 @@ Articles :- analytics vidhya
 21) To get the all the Function Member of particular {ClassName} :- 
       -> inspect.getmembers(ClassName, inspect.isfunction)
 
+22) To get the name of datatype of a variable :- type(vname).__name__
+
 --------------
 
 Python builtin frequently used 

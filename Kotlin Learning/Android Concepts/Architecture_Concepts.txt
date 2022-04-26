@@ -58,3 +58,8 @@
 
 
 * Do put your validation things in ViewModel & not in Presentation or UI side
+
+
+DI : dependency injection 
+ \
+  - Inject Repository In View
